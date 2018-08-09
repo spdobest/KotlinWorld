@@ -1,0 +1,4 @@
+package objectAndClass
+
+object MyClass {
+}

@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea6fc53a-d8f5-451c-97f4-df99580dec14" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/collections/ColectionMain.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/collections/ListOperationMain.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/collections/MapOperationMain.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/collections/SetOperationMain.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/nullpointer_handling/NullPointerMain.kt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/opetorExample/OperatorMain.kt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -312,11 +305,18 @@
       <option name="presentableId" value="Default" />
       <updated>1533794490924</updated>
     </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <created>1533828421785</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533828421785</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="57" y="-4" width="1309" height="772" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -348,6 +348,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

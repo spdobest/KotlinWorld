@@ -85,6 +85,26 @@ or(bits) – bitwise or
 xor(bits) – bitwise xor  
 inv() – bitwise inversion  
 
+
+**What to Use When**  
+Here is a short overview of what each function accepts and returns:  
+  
+**PARAMETER	SAME	DIFFERENT**
+**it 	     also      	let
+**this	    apply	    run, with**  
+  
+I was not particularly happy with the decision of standard library designers putting so many similar functions in, as they represent cognitive overload when analyzing the code. However, if you strictly use them for their intended purpose, they will state your intent and make the code more readable:  
+
+**also:** additional processing on an object in a call chain  
+**apply:** post-construction configuration  
+**let:** conversion of value  
+**run:** execute lambdas with side-effects and no result  
+**with:** configure objects created somewhere else  
+Be careful when using these functions to avoid potential problems. Do not use with on nullable variables. Avoid nesting apply, run, and with, as you will not know the current this. For nested also and let, use a named parameter instead of it for the same reason. Avoid it in long call chains, as it is not clear what it represents.  
+  
+For examples, please follow the link below  
+**https://dzone.com/articles/examining-kotlins-also-apply-let-run-and-with-intentions**
+
 **The operations on floating point numbers discussed in this section are:**    
 
 Equality checks: a == b and a != b  

@@ -38,6 +38,25 @@ the value cant be changed
 let a = 123
 let variable:Int = 123434
 
+
+**? and !! operator**  
+when we declare any variable like , question mark after the Datatype. that means you are saying that the value may be null some time.  
+    
+var a:String? ="abc"
+here we are saying the compiler that the variable a can hold null.When we will do any operation on the variable a, the compiler will show compilertime error to handle null pointer exception.
+  
+println(a.length)  // it will show compile time error that the value can be null  
+println(a!!.length) // it will not show any error now, because we handle Null pointer exceptin  
+  
+fun parseInt(str: String): Int? {  
+    // ...  
+}   
+This function explains that the return type can be null, so you have to handle    
+**variable without ? operator**  
+var a:String = "SIba"  
+a = null// it will show compile time error saying that the variable can be null.  
+
+
 **Here are the DataType List and their Range**     
 *Type	     Bit width*  
  Double       64(Bit)  

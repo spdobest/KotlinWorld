@@ -31,7 +31,10 @@ fun main(args:Array<String>){
 **var** keyword used for variable declaration  
 var a // it will show error  
 because if u declare a variable without any datatytpe, then you have to assign some value to the variable  
-var a = 123 // it will not show any error  
+var a = 123 // it will not show any error    
+var is only to declare not null type variables, we cant assign any null value to the variable declared as var
+it will show error - null cant be the value of a non null type  
+  
 **val** keyword used to define any constants value  
 its nothing but the **final** keyword in java
 the value cant be changed
@@ -55,6 +58,23 @@ This function explains that the return type can be null, so you have to handle
 **variable without ? operator**  
 var a:String = "SIba"  
 a = null// it will show compile time error saying that the variable can be null.  
+  
+**Use of !! - null assertion operator (!!)**  
+ The third option is for NPE-lovers: the not-null assertion operator (!!) converts any value to a non-null type and throws an exception if the value is null. We can write b!!, and this will return a non-null value of b (e.g., a String in our example) or throw an NPE if b is null:  
+  
+val l = b!!.length  
+Thus, if you want an NPE, you can have it, but you have to ask for it explicitly, and it does not appear out of the blue.   
+  
+**lateinit**  
+when we declare any variable as lateinit, this means the variable will be initialize later. if the variable is not assigned any value and we trying to use the variable, it will show runtime error. that is lateinit property variableName has not been initialized  
+example below  
+lateinit var name1:String
+
+println(name1.length) // it will show runtime error , that the variable is not initialized or assigned any value.
+  
+name1 = "Sibaprasad"  
+println(name1.length)  // it will print the length of the variable without any error. because this variable is assigned value later with "Sibaprasad"  
+
 
 
 **Here are the DataType List and their Range**     

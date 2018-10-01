@@ -1,14 +1,30 @@
 package basic
 
-import objectAndClasses.ClassAndObj
 import returnAndContinue.BreakExample
 
 internal object MyBasic1 {
 
+    const val MAX_LEN = 20
+
+    val s1 by lazy { 123 }
+
+    val s: String?
+
+    init {
+        s = "value"
+    }
+
+
     @JvmStatic
     fun main(args: Array<String>) {
 
-        var classObj = ClassAndObj("spm")
+
+
+        val items = listOf("banana", "avocado", "apple", "kiwifruit")
+        when {
+            "apple" in items -> println("juicy")
+            "apple" in items -> println("apple is fine too")
+        }
 
         var breakObj = BreakExample()
 
@@ -58,6 +74,12 @@ internal object MyBasic1 {
 
     fun functionWithDefaultParameterValues(a: Int = 0, b: String = "") {
         println("Values are $a and $b")
+
+        var a: String? = "abc"
+
+        a = null
+
+        print(a!!.length)
     }
 
 }

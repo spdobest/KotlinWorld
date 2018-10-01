@@ -1,5 +1,4 @@
-import objectAndClasses.Derived
-import objectAndClasses.InitOrderDemo
+
 import kotlin.properties.Delegates
 
 internal object Basics {
@@ -14,8 +13,8 @@ internal object Basics {
         println("2: " + (nan == (nan as Number)))
         println("3: " + ((nan as Number) == nan))
 
-        var der = Derived("spm mohanty","Moh")
-
+//        var der = Derived("spm mohanty","Moh")
+//
         var name1 = "Sibaprasad"
         val myVar1 = "Hello Mr. Sibaprasad Mohanty".also (::println)
         var myVar2 = "Hello Satya : whats up".also { println("Sibaprasad") }

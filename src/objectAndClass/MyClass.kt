@@ -1,4 +1,0 @@
-package objectAndClass
-
-object MyClass {
-}

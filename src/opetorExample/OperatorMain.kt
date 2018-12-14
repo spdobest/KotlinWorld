@@ -3,6 +3,7 @@ package opetorExample
 import com.sun.org.apache.xerces.internal.dom.DOMMessageFormatter.setLocale
 import org.xml.sax.helpers.ParserFactory
 import java.util.*
+import kotlin.properties.Delegates
 
 object OperatorMain {
 
@@ -12,43 +13,20 @@ object OperatorMain {
 //        operator10()
 //        operator11()
 
-        useOfAlso()
+        useOfLazy()
+
+        useOfRun()
         useOfLet()
 
+        useOfAlso()
+        useOfApply()
+
+        useOfWith()
+        funUseof_is_as()
+        useOfFIlter()
         // we will get to know different type of operator
 
     }
-
-    // ::
-    fun operator1() {
-
-
-    }
-
-    // ?
-    fun operator2() {
-
-
-    }
-
-    // !!
-    fun operator3() {
-
-
-    }
-
-    // !
-    fun operator4() {
-
-
-    }
-
-    // let
-    fun operator5() {
-
-
-    }
-
 
     // as
     fun funUseof_is_as() {
@@ -133,6 +111,62 @@ object OperatorMain {
         }
     }
 
+    fun useOfDelegate(){
+        println("============use of Delegate==========")
+      //  var p: String by Delegates()
+
+    }
+
+
+    fun useOfLazy(){
+        println("============use of lazy==========")
+        val lazyValue: String by lazy {
+            println("computed!")
+            "Hello"
+        }
+
+        println(lazyValue)
+    }
+
+
+
+    /**
+     * let
+    let is a non-monadic version of map:
+    It accepts objects as parameters and returns the result of the lambda.
+    Super-useful for conversions:
+
+     - > It doesnot change the object, it only return the value that applied condition
+     */
+
+    fun useOfLet(){
+        println("==========use of LET==============")
+        val person = Person("Edmund", 42)
+        println(person)
+        val result = person.let { it.age * 2 }
+        println(person)
+        println(result)
+    }
+
+
+    /**
+     * run
+    run is another function literal with receiver.
+    It is used with lambdas that do not return values,
+    but rather just create some side-effects:
+     */
+
+    fun useOfRun(){
+
+        println("==========use of RUN==============")
+
+        val person = Person("Edmund", 42)
+        val result = person.run { age * 2 }
+        println(person)
+        println(result)
+    }
+
+
     /**
      * also
     With this function, you say “also do this with the object.”
@@ -140,24 +174,13 @@ object OperatorMain {
      */
 
     fun useOfAlso() {
+        println("==========use of ALSO==============")
         val person = Person("Edmund", 42)
-        val result = person.also { person -> person.age = 50 }
         println(person)
-        println(result)
-    }
-
-    /**
-     * let
-    let is a non-monadic version of map:
-    It accepts objects as parameters and returns the result of the lambda.
-    Super-useful for conversions:
-     */
-
-    fun useOfLet(){
-        val person = Person("Edmund", 42)
-        val result = person.let { it.age * 2 }
-        println(person)
-        println(result)
+        val result = person.also { person -> person.age = 50
+            person.name = person.name.capitalize()}
+        println("After apply ALso Operator , result is $result")
+        println("After apply ALso Operator , the object is$person")
     }
 
     /**
@@ -169,38 +192,42 @@ object OperatorMain {
      */
 
     fun useOfApply(){
+        println("==========use of APPLY==============")
         val person = Person("Edmund", 42)
+        println(person)
         val result = person.apply { age = 50 }
-        println(person)
-        println(result)
+        println("After apply "+person)
+        println("The Result "+result)
     }
 
-    /**
-     * run
-    run is another function literal with receiver.
-    It is used with lambdas that do not return values,
-    but rather just create some side-effects:
-     */
-
-    fun useOfRun(){
-        val person = Person("Edmund", 42)
-        val result = person.run { age * 2 }
-        println(person)
-        println(result)
-    }
 
     /**
      * with
-    According to Kotlin idioms, with should be used to call multiple methods on an object.
+        According to Kotlin idioms, with should be used to call multiple methods on an object.
      */
 
     fun useOfWith(){
+        println("==========use of WITH==============")
         val person = Person("Edmund", 42)
         val result = with(person) {
             age * 2
         }
         println(person)
         println(result)
+    }
+
+    fun useOfFIlter(){
+        println("==========use of FILTER==============")
+        val originalMap = mapOf("key1" to 1, "key2" to 2, "key3" to 3)
+
+        val filteredMap = originalMap.filter { it.value < 2 }
+
+        println(filteredMap) // {key1=1}
+// original map has not changed
+        println(originalMap) // {key1=1, key2=2, key3=3}
+    }
+    fun useofMap(){
+
     }
 
 }

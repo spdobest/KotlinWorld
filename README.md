@@ -42,14 +42,23 @@ let a = 123
 let variable:Int = 123434
 
 
-**? and !! operator**  
+## **? and !! operator**  
+We can declare any variable using ? and !! operator or without using any operator at all.   
+var a:String? ="abc", when we declare any variable with ? operator, this means , the variable can be null anytime. We use ? operator for null safety. We have to assign value to the variable we declare with ? and also have to define the datatype of the variable. Otherwise it will show compile time error.  
+
+print(a?.length()) - if a is null , it will print nothing  
+Else it will print the length of the string  
+At the compile time, the compiler force us to handle the null pointer while doing any operation on the null values like 
+
 when we declare any variable like , question mark after the Datatype. that means you are saying that the value may be null some time.  
     
 var a:String? ="abc"
-here we are saying the compiler that the variable a can hold null.When we will do any operation on the variable a, the compiler will show compilertime error to handle null pointer exception.
+here we are saying the compiler that the variable a can hold null.When we will do any operation on the variable a, the compiler will show compilertime error to handle null pointer exception.  
   
 println(a.length)  // it will show compile time error that the value can be null  
 println(a!!.length) // it will not show any error now, because we handle Null pointer exceptin  
+  
+In the above case if a is null, it will through null pointer exception. If we handle using try cache, it will be okay else it will crash.  
   
 fun parseInt(str: String): Int? {  
     // ...  
@@ -65,7 +74,7 @@ a = null// it will show compile time error saying that the variable can be null.
 val l = b!!.length  
 Thus, if you want an NPE, you can have it, but you have to ask for it explicitly, and it does not appear out of the blue.   
   
-**lateinit**  
+**late init**  
 when we declare any variable as lateinit, this means the variable will be initialize later. if the variable is not assigned any value and we trying to use the variable, it will show runtime error. that is lateinit property variableName has not been initialized  
 example below  
 lateinit var name1:String
@@ -74,9 +83,7 @@ println(name1.length) // it will show runtime error , that the variable is not i
   
 name1 = "Sibaprasad"  
 println(name1.length)  // it will print the length of the variable without any error. because this variable is assigned value later with "Sibaprasad"  
-
-
-
+  
 **Here are the DataType List and their Range**     
 *Type	     Bit width*  
  Double       64(Bit)  
@@ -123,9 +130,7 @@ and(bits) – bitwise and
 or(bits) – bitwise or  
 xor(bits) – bitwise xor  
 inv() – bitwise inversion  
-
-
-**What to Use When**  
+ 
 Here is a short overview of what each function accepts and returns:  
   
 **PARAMETER	SAME	DIFFERENT**
@@ -208,6 +213,46 @@ val max = if (a > b) {
 When replace the switch statement of java. Now when is more flexible and more powerful as compared to Switch.  
 Using **when** we can also compare more than one condition in one case   
   
+Instead of switch case we use when clause in kotlin. When is more powerful and dynamic in nature as compared to switch. We can declare multiple conditions in one case. The syntax is as follows  
+  
+when(value){
+
+case 1 ->{
+}
+case 2->{
+}
+else{
+// this is nothing but the default condition in switch case
+}}  
+Example  
+  
+when(a){
+
+in 1..10 ->{
+print(" $a is in the range 1 to 10")
+}
+
+a is String ->{
+print(" $a is a string")
+}
+else {
+print(" none of the above condition")
+}
+}  
+  
+One more example with return type.  
+  
+fun describe(obj: Any): String =  
+    when (obj) {  
+        1          -> "One"  
+        "Hello"    -> "Greeting"  
+        is Long    -> "Long"  
+        !is String -> "Not a string"  
+        else       -> "Unknown"  
+    }  
+      
+this when clause will return a string.       
+  
   **For Example**  
 when (x) {  
     1 -> print("x == 1")  
@@ -239,7 +284,7 @@ when (x) {
     else -> print("none of the above")
 }
    
-**For Loops**  
+## **For Loops**  
 for loop iterates through anything that provides an iterator. This is equivalent to the foreach loop in languages like C#. The syntax is as follows:    
 
 for (item in collection) print(item)  
@@ -269,12 +314,12 @@ for ((index, value) in array.withIndex()) {
     println("the element at $index is $value")  
 }  
   
-**Return And Jumps**   
+## **Return And Jumps**   
 eturn. By default returns from the nearest enclosing function or anonymous function.  
 break. Terminates the nearest enclosing loop.  
 continue. Proceeds to the next step of the nearest enclosing loop.  
 
-**Break and Continue Labels**  
+## **Break and Continue Labels**  
   
 loop@ for (i in 1..100) {  
     for (j in 1..100) {  
@@ -304,7 +349,6 @@ class Person constructor(firstName: String) {
 class Person(firstName: String) {  
 } 
 **NOTE-** The primary constructor cannot contain any code. Initialization code can be placed in initializer blocks, which are prefixed with the init keyword.  
-  
   
 **Secondary Constructors**  
 The class can also declare secondary constructors, which are prefixed with constructor:  

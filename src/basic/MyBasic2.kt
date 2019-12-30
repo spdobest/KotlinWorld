@@ -49,27 +49,27 @@ internal object MyBasic2{
         val a = Integer(10)
         val b = Integer(10)
         // for structural equality, we use the == symbol that evaluates if both values are the same
+        // for structural as well as reference equality we use ===, it will compare the value and address of both the variable
 
         println(a===b) // false
         println(a==b)  // true
 
         var c = a
-        println(a===c) // true
+        println(a===c) // true, because both c and a point to one memory  location where 10 is stored
 
         val hobbies = arrayOf("Hiking, Chess")
         val hobbies2 = arrayOf("Hiking, Chess")
 
-        println(hobbies == hobbies2)
-        println(hobbies === hobbies2)
+        print("comparison between the two array hubies and hobbies2")
+        println(hobbies == hobbies2)  // false
+        println(hobbies === hobbies2) // true
 
-
+        print("comparison between the two objects USER \n")
         var user1 = User("Siba",29)
         var user2 = User("Siba",29)
 
-        println(user1 == user2)
-        println(user1 === user2)
-
-
+        println(user1 == user2)  // true, because it compare the content of the object
+        println(user1 === user2) //false, because it compare the reference of the two objects
     }
     data class User(val name: String, val age: Int)
 
@@ -81,6 +81,8 @@ internal object MyBasic2{
 
     fun useofIfElse(){
         // if can be use as expression
+        // whatever we wrote inside the curly bracket, it will be assigned to the variable maxNumber,
+        // 6 will be assigned to maxNumber
         val maxNumber = if(5>6){
             5
         }
@@ -93,6 +95,7 @@ internal object MyBasic2{
 
         var max = if (a > b) a else b
 
+        // the last statement inside the curly bracket will be the return type of the if else clause
         max = if (a > b) {
             print("Choose a")
             a
@@ -105,7 +108,6 @@ internal object MyBasic2{
     fun useOfWhen(){
 
         val x = 123
-
         when (x) {
             1 -> print("x == 1")
             2 -> print("x == 2")
@@ -115,6 +117,7 @@ internal object MyBasic2{
         }
 
         // when as expression
+        // we can use when as expression where we can a return a value on the particular condition
         val a = 12
         val b = 5
 
@@ -157,6 +160,7 @@ internal object MyBasic2{
         }
 
         // how to break a loop
+        // we can break a particular loop as per the condition with the use of tagged loop
         loop@ for (i in 1..100) {
             for (j in 1..100) {
                 if (i==5) break@loop
@@ -181,6 +185,4 @@ internal object MyBasic2{
             a = a/2
         }
     }
-
-
 }

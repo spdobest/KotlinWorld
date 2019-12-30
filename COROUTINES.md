@@ -57,13 +57,33 @@ suspend fun fetchUser(): User {
         // make network call  
         // return user  
     }.await()  
-}    
-**EXAMPLE**  
+}     
+  
+**The main keywords in Coroutines are**  
+**1.Suspend -** Suspend function is a function that could be started, paused and resume.    
+**2.GlobalScope -**  
+**3.async() -**  
+**4.launch() -**  
+**5.await -**  
+**6.Dispatchers -**  Dispatchers helps coroutines in deciding the thread on which the work has to be done. There are majorly three types of Dispatchers which are as **IO, Default, and Main**. IO dispatcher is used to do the network and disk related work. Default is used to do the CPU intensive work. Main is the UI thread of Android. In order to use these, we need to wrap the work under the async function. Async function looks like below.  
+**7.Scopes -**  it us used to cancel the background task as soon as the activity got destroyed.
+**8.withContext() -** withContext is nothing but an another way writing the async where we do not have to write await().  
+
+**NOTE-** Suspend functions are only allowed to be called from a coroutine or another suspend function. You can see that the async function which includes the keyword suspend. So, in order to use that, we need to make our function suspend too.  
+  
 GlobalScope.launch(Dispatchers.Main) {  
-        val user = fetchUser() // fetch on IO thread  
-        showUser(user) // back on UI thread  
-    }  
-    
+  fetchAndShowUser()  
+}   
+      
+Actually the above code is as below if we simplify the code  
+  
+GlobalScope.launch(Dispatchers.Main) {  
+   val user = fetchUser() // fetch on IO thread  
+   showUser(user)         // back on UI thread  
+}       
+  
+Here fetchAndShowUser() is a suspend function where we do the network operation and after getting the result we delever the result in the main thread.    
+  
 showUser will run on UI thread because we have used the Dispatchers.Main to launch it.  
 There are two functions in Kotlin to start the coroutines which are as follows:  
   
@@ -73,17 +93,95 @@ There are two functions in Kotlin to start the coroutines which are as follows:
 **Launch vs Async in Kotlin Coroutines**  
   
 The difference is that the launch{} does not return anything and the async{}returns an instance of Deferred<T>, which has an await()function that returns the result of the coroutine like we have future in Java in which we do future.get() to the get the result.  
-      
-**The main keywords in Coroutines are**  
-**1.Suspend -** Suspend function is a function that could be started, paused and resume.    
-**2.GlobalScope -**  
-**3.async() -**  
-**4.launch() -**  
-**5.await -**  
-**6.Dispatchers -**  Dispatchers helps coroutines in deciding the thread on which the work has to be done. There are majorly three types of Dispatchers which are as **IO, Default, and Main**. IO dispatcher is used to do the network and disk related work. Default is used to do the CPU intensive work. Main is the UI thread of Android. In order to use these, we need to wrap the work under the async function. Async function looks like below.  
-**7.Scopes -**  
-**8.withContext() -** withContext is nothing but an another way writing the async where we do not have to write await().  
+  
+fun fetchUserAndSaveInDatabase() {  
+    // fetch user from network  
+    // save user in database  
+    // and do not return anything  
+}  
+  
+Now, we can use the launch like below:  
+GlobalScope.launch(Dispatchers.IO) {  
+    fetchUserAndSaveInDatabase() // do on IO thread  
+}  
+  
+As the fetchUserAndSaveInDatabase do not return anything, we can use the launch.  
+  
+But when we need the result back then we must have to use async.Look into the below example  
+  
+Lets there are 2 methods fetchFIrstUser() and fetchSecondUser() which returns User object after fetching from the network.  
+fun fetchFirstUser(): User {  
+    // make network call  
+    // return user  
+}  
+  
+fun fetchSeconeUser(): User {  
+    // make network call   
+    // return user  
+}  
+  
+No need to make the above functions as suspend as we are not calling any other suspend function from them.  
+  
+Now, we can use the async like below:  
+  
+GlobalScope.launch(Dispatchers.Main) {  
+    val userOne = async(Dispatchers.IO) { fetchFirstUser() }  
+    val userTwo = async(Dispatchers.IO) { fetchSeconeUser() }  
+    showUsers(userOne.await(), userTwo.await()) // back on UI thread  
+}    
+  
+Here, it makes both the network call in parallel, await for the results and then call the showUsers function.  
+  
+**withContext** is nothing but an another way writing the async where we do not have to write await().Look at the example below  
+  
+suspend fun fetchUser(): User {  
+    return withContext(Dispatchers.IO) {  
+        // make network call  
+        // return user  
+    }  
+}  
+  
+Now we will understand the scope in the below example  
+Scopes in Kotlin Coroutines are very useful because we need to cancel the background task as soon as the activity is destroyed. Here, we will learn how to use scopes to handle these types of situation.  
+  
+Assuming that our activity is the scope, the background task should get canceled as soon as the activity is destroyed.Our activity will look like this  
+  
+class MainActivity : AppCompatActivity(), CoroutineScope {  
+  private lateinit var job: Job  
 
+  override val coroutineContext: CoroutineContext  
+        get() = Dispatchers.Main + job  
+        
+   override fun onCreate(savedInstanceState: Bundle?) {  
+    super.onCreate(savedInstanceState)  
+    job = Job() // create the Job  
+   }  
 
+   override fun onDestroy() {  
+    job.cancel() // cancel the Job  
+    super.onDestroy()  
+  }      
+}  
+  
+Now, just use the launch like below:  
+  
+launch {  
+    val userOne = async(Dispatchers.IO) { fetchFirstUser() }  
+    val userTwo = async(Dispatchers.IO) { fetchSeconeUser() }  
+    showUsers(userOne.await(), userTwo.await())  
+}  
+  
+As soon as the activity is destroyed, the task will get cancelled if it is running because we have defined the scope.
+
+When we need the global scope which is our application scope, not the activity scope, we can use the GlobalScope as below:  
+  
+GlobalScope.launch(Dispatchers.Main) {  
+    val userOne = async(Dispatchers.IO) { fetchFirstUser() }  
+    val userTwo = async(Dispatchers.IO) { fetchSeconeUser() }  
+}    
+  
+  
+
+  
 
 

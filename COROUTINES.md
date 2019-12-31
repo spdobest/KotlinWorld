@@ -2,11 +2,11 @@
   
   
 **Important Links**    
-  https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide  
+https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide  
 https://blog.mindorks.com/what-are-coroutines-in-kotlin-bf4fecd476e9  
 https://kotlinlang.org/docs/tutorials/coroutines/coroutines-basic-jvm.html  
-
-  
+https://www.raywenderlich.com/1423941-kotlin-coroutines-tutorial-for-android-getting-started  
+   
 ## What is Coroutines ?  
 **Co+Routines = Coroutines**  
 Co - Coperation  
@@ -22,6 +22,10 @@ Coroutines are available in many languages. It is of 2 types
 Kotlin implements stackless coroutines — it’s mean that the coroutines don’t have own stack, so they don’t map on the native thread.  
   
 **NOTE - One can think of a coroutine as a light-weight thread. Like threads, coroutines can run in parallel, wait for each other and communicate. The biggest difference is that coroutines are very cheap, almost free: we can create thousands of them, and pay very little in terms of performance. True threads, on the other hand, are expensive to start and keep around. A thousand threads can be a serious challenge for a modern machine.**  
+  
+**NOTE-** Kotlin Coroutines are like lightweight threads. They are lightweight because creating coroutines doesn’t allocate new threads. Instead, they use predefined thread pools, and smart scheduling. Scheduling is the process of determining which piece of work you will execute next. Just like a regular schedule. 
+  
+**NOTE:** Additionally, coroutines can be suspended and resumed mid-execution. This means you can have a long-running task, which you can execute little-by-little. You can pause it any number of times, and resume it when you’re ready again. Knowing this, creating a large number of Kotlin Coroutines won’t bring unnecessary memory overhead to your program. You’ll just suspend some of them until the thread pool frees up.  
   
 ## Definition of Coroutines:  
 A framework to manage concurrency in a more performant and simple way with its lightweight thread which is written on top of the actual threading framework to get the most out of it by taking the advantage of cooperative nature of functions.  
@@ -60,6 +64,13 @@ suspend fun fetchUser(): User {
 }     
   
 **The main keywords in Coroutines are**  
+  
+
+**Suspending functions:** This kind of function can be suspended without blocking the current thread. Instead of returning a simple value, it also knows in which context the caller suspended it. Using this, it can resume appropriately, when ready.  
+**CoroutineBuilders:** These take a suspending lambda as an argument to create a coroutine. There are a bunch of coroutine builders provided by Kotlin Coroutines, including async(), launch(), runBlocking.  
+**CoroutineScope:** Helps to define the lifecycle of Kotlin Coroutines. It can be application-wide or bound to a component like the Android Activity. You have to use a scope to start a coroutine.  
+**CoroutineDispatcher:** Defines thread pools to launch your Kotlin Coroutines in. This could be the background thread pool, main thread or even your custom thread pool. You’ll use this to switch between, and return results from, threads. 
+  
 **1.Suspend -** Suspend function is a function that could be started, paused and resume.    
 **2.GlobalScope -**  
 **3.async() -**  
@@ -68,7 +79,19 @@ suspend fun fetchUser(): User {
 **6.Dispatchers -**  Dispatchers helps coroutines in deciding the thread on which the work has to be done. There are majorly three types of Dispatchers which are as **IO, Default, and Main**. IO dispatcher is used to do the network and disk related work. Default is used to do the CPU intensive work. Main is the UI thread of Android. In order to use these, we need to wrap the work under the async function. Async function looks like below.  
 **7.Scopes -**  it us used to cancel the background task as soon as the activity got destroyed.
 **8.withContext() -** withContext is nothing but an another way writing the async where we do not have to write await().  
-
+  
+##  Using Dispatchers With Kotlin Coroutines
+  
+You can execute a coroutine using different CoroutineDispatchers, as mentioned before. Some of the available   CoroutineDispatchers in the API are: Dispatchers.Main, Dispatchers.IO and Dispatchers.Default.  
+  
+You can use these dispatchers for the following use cases:  
+  
+**Dispatchers.Default:** CPU-intensive work, such as sorting large lists, doing complex calculations and similar. A shared pool of threads on the JVM backs it.  
+**Dispatchers.IO:** networking or reading and writing from files. In short – any input and output, as the name states  
+Dispatchers.Main: recommended dispatcher for performing UI-related events. For example, showing lists in a RecyclerView, updating Views and so on.  
+  
+You’ll use some of these dispatchers to switch between the main and background threads. One last step before you can launch coroutines – defining a CoroutineScope.  
+  
 **NOTE-** Suspend functions are only allowed to be called from a coroutine or another suspend function. You can see that the async function which includes the keyword suspend. So, in order to use that, we need to make our function suspend too.  
   
 GlobalScope.launch(Dispatchers.Main) {  

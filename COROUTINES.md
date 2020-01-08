@@ -9,6 +9,7 @@ https://www.raywenderlich.com/1423941-kotlin-coroutines-tutorial-for-android-get
 EXAMPLES  
 https://github.com/dmytrodanylyk/coroutine-recipes.git  
 https://github.com/amanjeetsingh150/kotlin-android-examples/tree/master/KotlinCoroutines  
+https://github.com/wellingtoncosta/android-kotlin-coroutines  
 **KOTLIN EXAMPLE**  
 https://github.com/amanjeetsingh150/kotlin-android-examples  
    
@@ -207,6 +208,9 @@ GlobalScope.launch(Dispatchers.Main) {
     val userOne = async(Dispatchers.IO) { fetchFirstUser() }  
     val userTwo = async(Dispatchers.IO) { fetchSeconeUser() }  
 }    
+  
+USE OF SupervisorJob,
+
   
   
 

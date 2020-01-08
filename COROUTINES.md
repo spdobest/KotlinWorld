@@ -82,7 +82,7 @@ suspend fun fetchUser(): User {
 **4.launch() -**  
 **5.await -**  
 **6.Dispatchers -**  Dispatchers helps coroutines in deciding the thread on which the work has to be done. There are majorly three types of Dispatchers which are as **IO, Default, and Main**. IO dispatcher is used to do the network and disk related work. Default is used to do the CPU intensive work. Main is the UI thread of Android. In order to use these, we need to wrap the work under the async function. Async function looks like below.  
-**7.Scopes -**  it us used to cancel the background task as soon as the activity got destroyed.
+**7.Scopes -**  it us used to cancel the background task as soon as the activity got destroyed.  
 **8.withContext() -** withContext is nothing but an another way writing the async where we do not have to write await().  
   
 ##  Using Dispatchers With Kotlin Coroutines
@@ -115,7 +115,7 @@ Here fetchAndShowUser() is a suspend function where we do the network operation 
 showUser will run on UI thread because we have used the Dispatchers.Main to launch it.  
 There are two functions in Kotlin to start the coroutines which are as follows:  
   
-**1. launch{}
+**1. launch{}  
 2. async{}**  
   
 **Launch vs Async in Kotlin Coroutines**  

@@ -35,6 +35,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544790725473" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
@@ -207,6 +210,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="565" y="338" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586306495664">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="565" y="338" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.808@0.23.1440.808" timestamp="1586306495664" />
     <state width="1870" height="311" key="GridCell.Tab.0.bottom" timestamp="1578566443045">
       <screen x="0" y="23" width="1920" height="977" />
     </state>

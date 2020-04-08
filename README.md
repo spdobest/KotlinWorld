@@ -1,547 +1,222 @@
-# Kotlin-Demo  
-# Libraries  
-https://github.com/square/moshi  
-https://insert-koin.io/ (A dependency injection library for Kotlin written in kotlin)  
-https://github.com/Kotlin/anko  
-Kbinding (https://github.com/BennyWang/KBinding)  
-KAndroid (https://github.com/pawegio/KAndroid)  
-Klint  
-KLAXON -https://github.com/cbeust/klaxon - json to kotlin library  
-RXKotlin 
-https://github.com/mcxiaoke/awesome-kotlin  
-
-# [Click here for Corotines](https://github.com/spdobest/Hello-Kotlin/blob/master/COROUTINES.md)
-
-
-## **Advantage of Kotlin Over Java**  
-
-1. Kotlin is more flexible than java  
-2.Kotlin is concise - means we can perform more task with less code  
-3. Its More safety than Java -  Because its Immutablility of class and its Nullablity Check
-we will not get null pointer exception  
-4.Ensure More performance
-5. Supports high order function, we can pass function as method parameter
-6. Kotlin and java are interpoble
-7. Kotlin is similar to Scripting language, its the next generation language
-8. 
-
-## **How Hello World Program Works**
-in kotlin
-fun main(args:Array<String>){
- println("Hello")
- }
- It dont have class define, but it executes perfectly. The Kotlin Compiler creates a class  file which is loaded intomemory at runtime.  
- During compile time, Kotlin compiler convert the Myclass.kt file to MyClasskt  
- Once we run the class , MyClasskt.class file will be generate by java runtime  
- 
- print(10/9)  output = 1
- print(10.0/9)  output is 1.1223
- 
-
-
-## **Basic Syntax**
-
-**var** keyword used for variable declaration  
-var a // it will show error  
-because if u declare a variable without any datatytpe, then you have to assign some value to the variable  
-var a = 123 // it will not show any error    
-var is only to declare not null type variables, we cant assign any null value to the variable declared as var
-it will show error - null cant be the value of a non null type  
+# COROUTINES
   
-**val** keyword used to define any constants value  
-its nothing but the **final** keyword in java
-the value cant be changed
-let a = 123
-let variable:Int = 123434
-
-
-## **? and !! operator**  
-We can declare any variable using ? and !! operator or without using any operator at all.   
-var a:String? ="abc", when we declare any variable with ? operator, this means , the variable can be null anytime. We use ? operator for null safety. We have to assign value to the variable we declare with ? and also have to define the datatype of the variable. Otherwise it will show compile time error.  
-
-print(a?.length()) - if a is null , it will print nothing  
-Else it will print the length of the string  
-At the compile time, the compiler force us to handle the null pointer while doing any operation on the null values like 
-
-when we declare any variable like , question mark after the Datatype. that means you are saying that the value may be null some time.  
-    
-var a:String? ="abc"
-here we are saying the compiler that the variable a can hold null.When we will do any operation on the variable a, the compiler will show compilertime error to handle null pointer exception.  
   
-println(a.length)  // it will show compile time error that the value can be null  
-println(a!!.length) // it will not show any error now, because we handle Null pointer exceptin  
+**Important Links**    
+https://blog.mindorks.com/mastering-kotlin-coroutines-in-android-step-by-step-guide  
+https://blog.mindorks.com/what-are-coroutines-in-kotlin-bf4fecd476e9  
+https://kotlinlang.org/docs/tutorials/coroutines/coroutines-basic-jvm.html  
+https://www.raywenderlich.com/1423941-kotlin-coroutines-tutorial-for-android-getting-started  
+EXAMPLES  
+https://github.com/dmytrodanylyk/coroutine-recipes.git  
+https://github.com/amanjeetsingh150/kotlin-android-examples/tree/master/KotlinCoroutines  
+https://github.com/wellingtoncosta/android-kotlin-coroutines  
+**KOTLIN EXAMPLE**  
+https://github.com/amanjeetsingh150/kotlin-android-examples  
+
+**Coroutines Example Links**  
+https://medium.com/@elye.project/understanding-suspend-function-of-coroutines-de26b070c5ed  
+   
+## What is Coroutines ?  
+**Co+Routines = Coroutines**  
+Co - Coperation  
+Routines - Functions  
+When functions coperate with each other to execute known as **COROUTINES**. Coroutines is used to achieve asynchronous programming with using the cpu idle state. We can run multiple methods at the same time with the help of Coroutines.  
   
-In the above case if a is null, it will through null pointer exception. If we handle using try cache, it will be okay else it will crash.  
+**Coroutines and Threads** both are doing multitasking but Thread is handled by the sustem/os and the coroutines is handled by the User as it can execute a few lines of function by taking advantage of the cooperation.It's an optimized framework written over the actual threading by taking advantage of the cooperative nature of functions to make it light and yet powerful. So, we can say that Coroutines are lightweight threads. A lightweight thread means it doesn’t map on the native thread, so it doesn’t require context switching on the processor, so they are faster.   
   
-fun parseInt(str: String): Int? {  
-    // ...  
+Coroutines are available in many languages. It is of 2 types  
+1. Stackless   
+2. Stackfull  
+  
+Kotlin implements stackless coroutines — it’s mean that the coroutines don’t have own stack, so they don’t map on the native thread.  
+  
+**NOTE - One can think of a coroutine as a light-weight thread. Like threads, coroutines can run in parallel, wait for each other and communicate. The biggest difference is that coroutines are very cheap, almost free: we can create thousands of them, and pay very little in terms of performance. True threads, on the other hand, are expensive to start and keep around. A thousand threads can be a serious challenge for a modern machine.**  
+  
+**NOTE-** Kotlin Coroutines are like lightweight threads. They are lightweight because creating coroutines doesn’t allocate new threads. Instead, they use predefined thread pools, and smart scheduling. Scheduling is the process of determining which piece of work you will execute next. Just like a regular schedule. 
+  
+**NOTE:** Additionally, coroutines can be suspended and resumed mid-execution. This means you can have a long-running task, which you can execute little-by-little. You can pause it any number of times, and resume it when you’re ready again. Knowing this, creating a large number of Kotlin Coroutines won’t bring unnecessary memory overhead to your program. You’ll just suspend some of them until the thread pool frees up.  
+  
+## Definition of Coroutines:  
+A framework to manage concurrency in a more performant and simple way with its lightweight thread which is written on top of the actual threading framework to get the most out of it by taking the advantage of cooperative nature of functions.  
+  
+**Where we can use Coroutines**  
+Lets take a simple example where we can  
+1.Fetch User from the server.  
+2.Show the User in the UI.  
+  
+When we will do any N/W operation in main thread it will show exception network on main thread. To avoid that we can use use the below solutions  
+1. Call Back  
+2. Rx Java  
+3. Coroutines  
+  
+  suspend fun fetchAndShowUser() {  
+     val user = fetchUser() // fetch on IO thread  
+     showUser(user) // back on UI thread  
+}  
+  
+Here, the above code looks synchronous, but it is asynchronous. We will see how is it possible.   
+  
+How to implement coroutines  
+  
+dependencies {  
+  implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:x.x.x"  
+  implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:x.x.x"  
+}    
+  
+Now, our function fecthUser will look like below:  
+  
+suspend fun fetchUser(): User {  
+    return GlobalScope.async(Dispatchers.IO) {  
+        // make network call  
+        // return user  
+    }.await()  
+}     
+  
+**The main keywords in Coroutines are**  
+  
+
+**Suspending functions:** This kind of function can be suspended without blocking the current thread. Instead of returning a simple value, it also knows in which context the caller suspended it. Using this, it can resume appropriately, when ready.  
+**CoroutineBuilders:** These take a suspending lambda as an argument to create a coroutine. There are a bunch of coroutine builders provided by Kotlin Coroutines, including async(), launch(), runBlocking.  
+**CoroutineScope:** Helps to define the lifecycle of Kotlin Coroutines. It can be application-wide or bound to a component like the Android Activity. You have to use a scope to start a coroutine.  
+**CoroutineDispatcher:** Defines thread pools to launch your Kotlin Coroutines in. This could be the background thread pool, main thread or even your custom thread pool. You’ll use this to switch between, and return results from, threads. 
+  
+**1.Suspend -** Suspend function is a function that could be started, paused and resume.    
+**2.GlobalScope -**  
+**3.async() -**  
+**4.launch() -**  
+**5.await -**  
+**6.Dispatchers -**  Dispatchers helps coroutines in deciding the thread on which the work has to be done. There are majorly three types of Dispatchers which are as **IO, Default, and Main**. IO dispatcher is used to do the network and disk related work. Default is used to do the CPU intensive work. Main is the UI thread of Android. In order to use these, we need to wrap the work under the async function. Async function looks like below.  
+**7.Scopes -**  it us used to cancel the background task as soon as the activity got destroyed.  
+**8.withContext() -** withContext is nothing but an another way writing the async where we do not have to write await().  
+  
+##  Using Dispatchers With Kotlin Coroutines
+  
+You can execute a coroutine using different CoroutineDispatchers, as mentioned before. Some of the available   CoroutineDispatchers in the API are: Dispatchers.Main, Dispatchers.IO and Dispatchers.Default.  
+  
+You can use these dispatchers for the following use cases:  
+  
+**Dispatchers.Default:** CPU-intensive work, such as sorting large lists, doing complex calculations and similar. A shared pool of threads on the JVM backs it.  
+**Dispatchers.IO:** networking or reading and writing from files. In short – any input and output, as the name states  
+Dispatchers.Main: recommended dispatcher for performing UI-related events. For example, showing lists in a RecyclerView, updating Views and so on.  
+  
+You’ll use some of these dispatchers to switch between the main and background threads. One last step before you can launch coroutines – defining a CoroutineScope.  
+  
+**NOTE-** Suspend functions are only allowed to be called from a coroutine or another suspend function. You can see that the async function which includes the keyword suspend. So, in order to use that, we need to make our function suspend too.  
+  
+GlobalScope.launch(Dispatchers.Main) {  
+  fetchAndShowUser()  
 }   
-This function explains that the return type can be null, so you have to handle    
-**variable without ? operator**  
-var a:String = "SIba"  
-a = null// it will show compile time error saying that the variable can be null.  
-  
-**Use of !! - null assertion operator (!!)**  
- The third option is for NPE-lovers: the not-null assertion operator (!!) converts any value to a non-null type and throws an exception if the value is null. We can write b!!, and this will return a non-null value of b (e.g., a String in our example) or throw an NPE if b is null:  
-  
-val l = b!!.length  
-Thus, if you want an NPE, you can have it, but you have to ask for it explicitly, and it does not appear out of the blue.   
-  
-**late init**  
-when we declare any variable as lateinit, this means the variable will be initialize later. if the variable is not assigned any value and we trying to use the variable, it will show runtime error. that is lateinit property variableName has not been initialized  
-example below  
-lateinit var name1:String
-
-println(name1.length) // it will show runtime error , that the variable is not initialized or assigned any value.
-  
-name1 = "Sibaprasad"  
-println(name1.length)  // it will print the length of the variable without any error. because this variable is assigned value later with "Sibaprasad"  
-  
-**Here are the DataType List and their Range**     
-*Type	     Bit width*  
- Double       64(Bit)  
- Float        32(Bit)    
- Long         64(Bit)    
- Int          32(Bit)    
- Short        16(Bit)    
- Byte          8(Bit)    
-
-**Underscores in numeric literals (since 1.1)**  
-You can use underscores to make number constants more readable:  
-*ForExample*  
-val oneMillion = 1_000_000  
-val creditCardNumber = 1234_5678_9012_3456L  
-val socialSecurityNumber = 999_99_9999L  
-val hexBytes = 0xFF_EC_DE_5E  
-val bytes = 0b11010010_01101001_10010100_10010010    
-
-**NOTE :** Kotlin doesnot support implicit type coversion, It supports only explicit data conversion 
-
-For example  
-var a:Int = 123
-var b:Long = a // it will show error
-
-var b:Long = a.ToLong() // it will execute successfully  
-  
-Every number type supports the following conversions:  
-
-**toByte(): Byte    
-toShort(): Short  
-toInt(): Int  
-toLong(): Long  
-toFloat(): Float  
-toDouble(): Double  
-toChar(): Char**  
-
-**Operators**  
-Here is the complete list of bitwise operations (available for Int and Long only):  
-
-shl(bits) – signed shift left (Java's <<)  
-shr(bits) – signed shift right (Java's >>)  
-ushr(bits) – unsigned shift right (Java's >>>)  
-and(bits) – bitwise and  
-or(bits) – bitwise or  
-xor(bits) – bitwise xor  
-inv() – bitwise inversion  
- 
-Here is a short overview of what each function accepts and returns:  
-  
-**PARAMETER	SAME	DIFFERENT**
-**it 	     also      	let
-**this	    apply	    run, with**  
-  
-I was not particularly happy with the decision of standard library designers putting so many similar functions in, as they represent cognitive overload when analyzing the code. However, if you strictly use them for their intended purpose, they will state your intent and make the code more readable:  
-
-**also:** additional processing on an object in a call chain  
-**apply:** post-construction configuration  
-**let:** conversion of value  
-**run:** execute lambdas with side-effects and no result  
-**with:** configure objects created somewhere else  
-Be careful when using these functions to avoid potential problems. Do not use with on nullable variables. Avoid nesting apply, run, and with, as you will not know the current this. For nested also and let, use a named parameter instead of it for the same reason. Avoid it in long call chains, as it is not clear what it represents.  
-  
-For examples, please follow the link below  
-**https://dzone.com/articles/examining-kotlins-also-apply-let-run-and-with-intentions**
-
-**The operations on floating point numbers discussed in this section are:**    
-
-Equality checks: a == b and a != b  
-Comparison operators: a < b, a > b, a <= b, a >= b  
-Range instantiation and range checks: a..b, x in a..b, x !in a..b  
-
-**Arrays**  
-Arrays in Kotlin are represented by the Array class, that has get and set functions (that turn into [] by operator overloading conventions), and size property, along with a few other useful member functions:  
-// Creates an Array<String> with values ["0", "1", "4", "9", "16"]  
-val asc = Array(5, { i -> (i * i).toString() })  
-    
-**String**    
-Now we can use """ for below  
-val text = """  
-    for (c in "foo")  
-        print(c)  
-"""  
-Or
-this type of String also  
-val text = """  
-    |Tell me and I forget.  
-    |Teach me and I remember.  
-    |Involve me and I learn.  
-    |(Benjamin Franklin)  
-    """.trimMargin()  
-**Note** By default | is used as margin prefix, but you can choose another character and pass it as a parameter, like trimMargin(">").  
-  
-## Control Flow: if, when, for, while    
-  
-**If Expression**  
-In Kotlin, if is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else), because ordinary if works fine in this role.  
-  
-For Example  
-// Traditional usage   
-var max = a   
-if (a < b) max = b  
-  
-// With else   
-var max: Int  
-if (a > b) {  
-    max = a  
-} else {  
-    max = b  
-}  
-   
-// As expression   
-val max = if (a > b) a else b  
-
-if branches can be blocks, and the last expression is the value of a block:  
-  
-val max = if (a > b) {  
-    print("Choose a")  
-    a  
-} else {  
-    print("Choose b")  
-    b  
-}  
-  
-**NOTE - If you're using if as an expression rather than a statement (for example, returning its value or assigning it to a variable), the expression is required to have an else branch. **  
-  
-**WHEN**  
-When replace the switch statement of java. Now when is more flexible and more powerful as compared to Switch.  
-Using **when** we can also compare more than one condition in one case   
-  
-Instead of switch case we use when clause in kotlin. When is more powerful and dynamic in nature as compared to switch. We can declare multiple conditions in one case. The syntax is as follows  
-  
-when(value){
-
-case 1 ->{
-}
-case 2->{
-}
-else{
-// this is nothing but the default condition in switch case
-}}  
-Example  
-  
-when(a){
-
-in 1..10 ->{
-print(" $a is in the range 1 to 10")
-}
-
-a is String ->{
-print(" $a is a string")
-}
-else {
-print(" none of the above condition")
-}
-}  
-  
-One more example with return type.  
-  
-fun describe(obj: Any): String =  
-    when (obj) {  
-        1          -> "One"  
-        "Hello"    -> "Greeting"  
-        is Long    -> "Long"  
-        !is String -> "Not a string"  
-        else       -> "Unknown"  
-    }  
       
-this when clause will return a string.       
+Actually the above code is as below if we simplify the code  
   
-  **For Example**  
-when (x) {  
-    1 -> print("x == 1")  
-    2 -> print("x == 2")  
-    else -> { // Note the block  
-        print("x is neither 1 nor 2")  
-    }  
+GlobalScope.launch(Dispatchers.Main) {  
+   val user = fetchUser() // fetch on IO thread  
+   showUser(user)         // back on UI thread  
+}       
+  
+Here fetchAndShowUser() is a suspend function where we do the network operation and after getting the result we delever the result in the main thread.    
+  
+showUser will run on UI thread because we have used the Dispatchers.Main to launch it.  
+There are two functions in Kotlin to start the coroutines which are as follows:  
+  
+**1. launch{}  
+2. async{}**  
+  
+**Launch vs Async in Kotlin Coroutines**  
+  
+The difference is that the launch{} does not return anything and the async{}returns an instance of Deferred<T>, which has an await()function that returns the result of the coroutine like we have future in Java in which we do future.get() to the get the result.  
+  
+fun fetchUserAndSaveInDatabase() {  
+    // fetch user from network  
+    // save user in database  
+    // and do not return anything  
 }  
-   
-when (x) {  
-    0, 1 -> print("x == 0 or x == 1")  
-    else -> print("otherwise")  
+  
+Now, we can use the launch like below:  
+GlobalScope.launch(Dispatchers.IO) {  
+    fetchUserAndSaveInDatabase() // do on IO thread  
+}  
+  
+As the fetchUserAndSaveInDatabase do not return anything, we can use the launch.  
+  
+But when we need the result back then we must have to use async.Look into the below example  
+  
+Lets there are 2 methods fetchFIrstUser() and fetchSecondUser() which returns User object after fetching from the network.  
+fun fetchFirstUser(): User {  
+    // make network call  
+    // return user  
+}  
+  
+fun fetchSeconeUser(): User {  
+    // make network call   
+    // return user  
+}  
+  
+No need to make the above functions as suspend as we are not calling any other suspend function from them.  
+  
+Now, we can use the async like below:  
+  
+GlobalScope.launch(Dispatchers.Main) {  
+    val userOne = async(Dispatchers.IO) { fetchFirstUser() }  
+    val userTwo = async(Dispatchers.IO) { fetchSeconeUser() }  
+    showUsers(userOne.await(), userTwo.await()) // back on UI thread  
 }    
   
-We can use arbitrary expressions (not only constants) as branch conditions  
+Here, it makes both the network call in parallel, await for the results and then call the showUsers function.  
   
-when (x) {  
-    parseInt(s) -> print("s encodes x")  
-    else -> print("s does not encode x")  
-}    
+**withContext** is nothing but an another way writing the async where we do not have to write await().Look at the example below  
   
-We can also check a value for being in or !in a range or a collection:  
-
-
-when (x) {
-    in 1..10 -> print("x is in the range")
-    in validNumbers -> print("x is valid")
-    !in 10..20 -> print("x is outside the range")
-    else -> print("none of the above")
-}
-   
-## **For Loops**  
-for loop iterates through anything that provides an iterator. This is equivalent to the foreach loop in languages like C#. The syntax is as follows:    
-
-for (item in collection) print(item)  
-The body can be a block.  
-
-for (item: Int in ints) {  
-    // ...  
-}  
-  
-    
-for (i in 1..3) {  
-    println(i)  
-}  
-for (i in 6 downTo 0 step 2) {  
-    println(i)  
-}  
-  
-  
-//sampleStart  
-for (i in array.indices) {  
-    println(array[i])  
-}    
-  
-val array = arrayOf("a", "b", "c")  
-//sampleStart  
-for ((index, value) in array.withIndex()) {  
-    println("the element at $index is $value")  
-}  
-  
-## **Return And Jumps**   
-eturn. By default returns from the nearest enclosing function or anonymous function.  
-break. Terminates the nearest enclosing loop.  
-continue. Proceeds to the next step of the nearest enclosing loop.  
-
-## **Break and Continue Labels**  
-  
-loop@ for (i in 1..100) {  
-    for (j in 1..100) {  
-        if (...) break@loop  
-    }  
-}    
-  
-//sampleStart  
-fun foo() {  
-    listOf(1, 2, 3, 4, 5).forEach lit@{  
-        if (it == 3) return@lit // local return to the caller of the lambda, i.e. the forEach loop  
-        print(it)  
-    }  
-    print(" done with explicit label")  
-}  
-//sampleEnd   
-  
-## **Classes and Objects**  
-A class in Kotlin can have a primary constructor and one or more secondary constructors. The primary constructor is part of the class header: it goes after the class name (and optional type parameters).  
-  
-class Person constructor(firstName: String) {  
-}  
-
-**NOTE**  
-**If the primary constructor does not have any annotations or visibility modifiers, the constructor keyword can be omitted:
-
-class Person(firstName: String) {  
-} 
-**NOTE-** The primary constructor cannot contain any code. Initialization code can be placed in initializer blocks, which are prefixed with the init keyword.  
-  
-**Secondary Constructors**  
-The class can also declare secondary constructors, which are prefixed with constructor:  
-  
-class Person {  
-    constructor(parent: Person) {  
-        parent.children.add(this)  
-    }  
-}    
-
-**NOTE** If the class has a primary constructor, each secondary constructor needs to delegate to the primary constructor, either directly or indirectly through another secondary constructor(s). Delegation to another constructor of the same class is done using the this keyword:  
-  
-class Person(val name: String) {   
-    constructor(name: String, parent: Person) : this(name) {  
-        parent.children.add(this)  
+suspend fun fetchUser(): User {  
+    return withContext(Dispatchers.IO) {  
+        // make network call  
+        // return user  
     }  
 }  
   
-**NOTE:Note that code in initializer blocks effectively becomes part of the primary constructor**  
-**NOTE-** If you want to declare a constructor as private , then u can declare as below  
-class DontCreateMe private constructor () {  
+Now we will understand the scope in the below example  
+Scopes in Kotlin Coroutines are very useful because we need to cancel the background task as soon as the activity is destroyed. Here, we will learn how to use scopes to handle these types of situation.  
+  
+Assuming that our activity is the scope, the background task should get canceled as soon as the activity is destroyed.Our activity will look like this  
+  
+class MainActivity : AppCompatActivity(), CoroutineScope {  
+  private lateinit var job: Job  
+
+  override val coroutineContext: CoroutineContext  
+        get() = Dispatchers.Main + job  
+        
+   override fun onCreate(savedInstanceState: Bundle?) {  
+    super.onCreate(savedInstanceState)  
+    job = Job() // create the Job  
+   }  
+
+   override fun onDestroy() {  
+    job.cancel() // cancel the Job  
+    super.onDestroy()  
+  }      
 }  
-**NOTE:** you can declare constructor with defalut parameters,  
-class Customer(val customerName: String = "SIbaprasad"){  
-  init{  
-    println(customerName)
-    }
-  }
-in the above case, if we will not pass any value to the constructor, it will assign the default value  
-var cons = Customer()// it will print SIbaprasad  
-var cons = Customer("Mohanty")// it will print Mohanty  
   
-**Class Members**  
-Classes can contain:  
+Now, just use the launch like below:  
   
-1) Constructors and initializer blocks  
-2) Functions  
-3) Properties  
-4) Nested and Inner Classes  
-5) Object Declarations  
-  
-## Inheritance  
-All classes in Kotlin have a common superclass Any, that is the default superclass for a class with no supertypes declared:   
-class Example // Implicitly inherits from Any   
-  
-**Note:** Any is not java.lang.Object; in particular, it does not have any members other than equals(), hashCode() and toString(). Please consult the Java interoperability section for more details.  
-  
-**NOTE : The open annotation on a class is the opposite of Java's final:**
-open class Base(p: Int)  
-  
-class Derived(p: Int) : Base(p)  
-  
-**NOTE:** If the derived class has a primary constructor, the base class can (and must) be initialized right there, using the parameters of the primary constructor.  
-  
-If the class has no primary constructor, then each secondary constructor has to initialize the base type using the super keyword, or to delegate to another constructor which does that. Note that in this case different secondary constructors can call different constructors of the base type:    
-  
-class MyView : View {  
-    constructor(ctx: Context) : super(ctx)  
-  
-    constructor(ctx: Context, attrs: AttributeSet) : super(ctx, attrs)  
-}    
-    
-  
-**Overriding Methods**  
-  
-As we mentioned before, we stick to making things explicit in Kotlin. And unlike Java, Kotlin requires explicit annotations for overridable members (we call them open) and for overrides:  
-  
-open class Base {  
-    open fun v() {}  
-    fun nv() {}  
+launch {  
+    val userOne = async(Dispatchers.IO) { fetchFirstUser() }  
+    val userTwo = async(Dispatchers.IO) { fetchSeconeUser() }  
+    showUsers(userOne.await(), userTwo.await())  
 }  
-class Derived() : Base() {  
-    override fun v() {}  
+  
+As soon as the activity is destroyed, the task will get cancelled if it is running because we have defined the scope.
+
+When we need the global scope which is our application scope, not the activity scope, we can use the GlobalScope as below:  
+  
+GlobalScope.launch(Dispatchers.Main) {  
+    val userOne = async(Dispatchers.IO) { fetchFirstUser() }  
+    val userTwo = async(Dispatchers.IO) { fetchSeconeUser() }  
 }    
   
-## **Collections**    
-Array is Mutable and fixed size
-Note : There are 2 types of collections in Kotlin
-1. imMutable Collection - Read Only Operation
-    i.Immutable List - listOf
-    ii.Immutable map - mapOf
-    iii.immutable set - setOf  
-    
-2. Mutable Collection - read and Write Operation
-    i. Mutable List  : ArrayList,arrayListOf,mutableListOf
-    ii.Mutable Map   : HashMap,HashmapOf,MutableMapOf
-    iii. Mutable Set : HashsetOf,mutableSetOf
-    
-How to define Array
-var myArray:Array<Int>(5){0}  - all elements are zero
- 
- myArray[0] = 123
- for(element in myArray){
- print(element)
- }
- 
- ## Define List  
- var list:listOf<String>("Siba","Prasad","mohanty")   
- // this is immutable list,fixed in size. cant perform add or remove  
- list(1) = "asdas" // it will show error, we cant change   
- 
- var mutableList:mutableListOf<String>("a","b","c")    
- // this is mutable list,can change sizee. can perform add or remove  
- mutableList.add("d")  
- mutableList.remove(0)  
- 
- var listExample:arrayListOf<String>("india","Canada","uk")  
- // we can also declare mutable list like this  
- listExample.add("asdsad")  
- listExample.add("def")  
- 
- we can perform all the operation in the mutable list  
- 
- var mutableArrayList:Arraylist<String>("a","b","c")  
- 
-  ## **Define Map**  
+USE OF SupervisorJob,
+
   
-  **immutable Map** 
-  - cant change size of the map    
-  - cant perform operation    
-  - Fixed in size    
-  **Example**  
-    
-  var immutableMap:mapOf<Integer,String>(2 to "two",3 to "three", 1 to "one")    
-  immutableMap.put(1 to "12321") / it will show error   
-    
-   **Mmutable Map**  
   
-  var mutableMapType1:HashMap<Integer,String>(2 to "two",3 to "three", 1 to "one")  
-  mutableMapType1.put(3 to "sibaprasad")  
-  mutableMapType1.replace(2 to "aaa")  
-    
-  var mutableMapType2:HashmapOf<Float,Integer>(2.2f to 2,3.5f to 7)    
-    
-  var mutableMapType3:MutableMapOf<String,String>("siba" to "prasad","prasad" to "mohanty", "abc" to "def")  
-    
- **Now retrieve the map values**
- for(key in mutableMapType1.keys){  
-  println("Element at $key is ${mutableMapType1[key]}")  
- }  
-   
-## **Define SET**  
-set contains Unique Element
-Hashset contains unique element  but cant gurrent of the sequence of element
- 
- **Mutable Set**  
- var mutableSet:setOf<String>("a","b","c","dsadasdas")  // its can be read and write both
-  var mutableSet:setOf<Integer>(1,2,3,12,3,4,5)
- mutableSet.remove(5)
- mutableSet.add(100)
- 
- for(value i mutableSet){
- print("Value is $value")
- }  
-   
- ## **Extension Function**  
- 
- Kotlin extension functions will let us add new functions to existing classes that wouldn´t be able to be modified otherwise. We can, for instance, add a new method to an activity that let us show a toast in a much more simple nomenclature:  
- 
- fun Activity.toast(message: CharSequence, duration: Int = Toast.LENGTH_SHORT){  
-    Toast.makeText(this, message, duration) .show()  
- }  
- 
- Explanation : To create a toast message, everytime we need to write the show method at the end of the function.  
- But in the extension function we just write the function with extra default parameters like, duration and aded show method at the end  
-   
- Here it is another interesting example that will let me explain another interesting concept: reified types.  
-   
-inline fun <reified T : Activity> Activity.navigate(id: String) {  
-    val intent = Intent(this, T::class.java)  
-    intent.putExtra("id", id)  
-    startActivity(intent)  
-}  
- 
-Inline functions can use reified types, what means that we can recover the class from a type inside the function instead of having to pass the class type as an argument.  
-Inline functions are a bit different from regular functions. Inline functions will be substituted with its code during compilation, instead of really calling to a function. It will simplify some situations. For instance, if we have a function as an argument, a regular function will internally create an object that contains that function. On the other hand, inline functions will substitute the code of the function in the place where its called, so it won´t require an internal object for that.  
- 
+
   
- 
- 
- 
- 
- 
+
+

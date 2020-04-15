@@ -1,66 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea6fc53a-d8f5-451c-97f4-df99580dec14" name="Default" comment="Merge branch 'master' of https://github.com/spdobest/Hello-Kotlin&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+    <list default="true" id="ea6fc53a-d8f5-451c-97f4-df99580dec14" name="Default" comment="package name assigned">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COROUTINES.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Basics.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hello.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Input.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Welcome.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/Basic.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/MyBasic1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/MyBasic2.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basic/NullPointerExample.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/basics/KotlinDatatype.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/ColectionMain.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/ListOperationMain.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/MapOperationMain.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collections/SetOperationMain.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controlFlow/IfElse1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/delegatesInKotlin/mainUseOfDelegate.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doWhile/DowhileLoop.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doWhile/WhileMain.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enumExample/EnumClass1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extensionFunction/ExtFUnctionExample.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/extensionFunction/ExtensionFunExample.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forLoop/For.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/forLoop/ForMain.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/function/Function1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/function/FunctionExample1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/function/FunctionMain.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hiigherOrderFUnction/HighOrderFunExample.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/initBlockExample/InitBlockDemo.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nullpointer_handling/NullPointerMain.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectAndClass/MyObject1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectAndClass/abstractClass/MyAbstractClassMain1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectAndClass/basic/DontCreateMe.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectAndClass/basic/InitOrderDemo.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectAndClass/basic/Person.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectAndClass/basic/Person1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectAndClass/dataClss/MyDataClassMain1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectAndClass/delegate/My7DelegateMain1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectAndClass/inheritance/Base.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectAndClass/inheritance/Foo.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectAndClass/inheritance/MyInheritanceMain1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectAndClass/interfc/MyInterfaceMain1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectAndClass/sealedClass/SealedClassExample.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectAndClass/sealedClass/UseOfSealedMain.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/opetorExample/OperatorMain.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/opetorExample/Person.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/returnAndContinue/BreakExample.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/returnAndContinue/ContinueExample.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/returnAndContinue/ReturnExample.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/returnAndContinue/ReturnJumpMain.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sealedClass/Fruit.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tailrecFunction/TailRecFunctionExample.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/udemy1/ArrayANdArraylist1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/useOfAllOperator/UseOfOperatorExample.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/useOfLazy/LazyExample.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when/When1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/when/WhenMain.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/whileLoop/WhileLoop1.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/whileLoop/WhileMain.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="522" column="16" selection-start-line="522" selection-start-column="16" selection-end-line="522" selection-end-column="16" />
+            <state relative-caret-position="690">
+              <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -96,14 +39,27 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/basic/MyBasic2.kt" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/useOfLazy/LazyExample.kt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="15" />
+    <option name="y" value="23" />
+    <option name="width" value="1265" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectId" id="1VhfiDwoOECXPmTeeRabKkge80Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -141,6 +97,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/spm/kotlin/world/useOfLazy" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="hiigherOrderFUnction" />
       <recent name="opetorExample" />
@@ -276,10 +235,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.sealedClass.FruitKt" />
-        <item itemvalue="Kotlin.basic.MyBasic2" />
-        <item itemvalue="Kotlin.opetorExample.OperatorMain" />
         <item itemvalue="Kotlin.useOfAllOperator.UseOfOperatorExampleKt" />
+        <item itemvalue="Kotlin.opetorExample.OperatorMain" />
         <item itemvalue="Kotlin.delegatesInKotlin.MainUseOfDelegateKt" />
+        <item itemvalue="Kotlin.basic.MyBasic2" />
       </list>
     </recent_temporary>
   </component>
@@ -313,44 +272,54 @@
       <option name="project" value="LOCAL" />
       <updated>1533828421785</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="package name assigned">
+      <created>1586948662245</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586948662246</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="23" width="1265" height="704" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24938676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.19607843" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5375817" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <MESSAGE value="Merge branch 'master' of https://github.com/spdobest/Hello-Kotlin&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/spdobest/Hello-Kotlin&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <MESSAGE value="package name assigned" />
+    <option name="LAST_COMMIT_MESSAGE" value="package name assigned" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -376,14 +345,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic/Basic.kt">
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/basic/Basic.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/MyBasic2.kt">
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/basic/MyBasic2.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
@@ -392,8 +361,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="522" column="16" selection-start-line="522" selection-start-column="16" selection-end-line="522" selection-end-column="16" />
+        <state relative-caret-position="56">
+          <caret line="239" column="33" lean-forward="true" selection-start-line="239" selection-start-column="33" selection-end-line="239" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/udemy1/ArrayANdArraylist1.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/useOfLazy/LazyExample.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="2" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
         </state>
       </provider>
     </entry>

@@ -307,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.sealedClass.FruitKt">
+  <component name="RunManager" selected="Kotlin.spm.kotlin.world.sealedClass.FruitKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -327,66 +327,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basic.MyBasic2" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="spm.kotlin.world.basic.MyBasic2" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="basic.MyBasic2" />
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.basic.MyBasic2" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="delegatesInKotlin.MainUseOfDelegateKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="spm.kotlin.world.delegatesInKotlin.MainUseOfDelegateKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="delegatesInKotlin.MainUseOfDelegateKt" />
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.delegatesInKotlin.MainUseOfDelegateKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="opetorExample.OperatorMain" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="spm.kotlin.world.opetorExample.OperatorMain" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="opetorExample.OperatorMain" />
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.opetorExample.OperatorMain" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sealedClass.FruitKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="spm.kotlin.world.sealedClass.FruitKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="sealedClass.FruitKt" />
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.sealedClass.FruitKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="useOfAllOperator.UseOfOperatorExampleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="useOfAllOperator.UseOfOperatorExampleKt" />
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -411,19 +411,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.basic.MyBasic2" />
-      <item itemvalue="Kotlin.delegatesInKotlin.MainUseOfDelegateKt" />
-      <item itemvalue="Kotlin.opetorExample.OperatorMain" />
-      <item itemvalue="Kotlin.useOfAllOperator.UseOfOperatorExampleKt" />
-      <item itemvalue="Kotlin.sealedClass.FruitKt" />
+      <item itemvalue="Kotlin.spm.kotlin.world.basic.MyBasic2" />
+      <item itemvalue="Kotlin.spm.kotlin.world.delegatesInKotlin.MainUseOfDelegateKt" />
+      <item itemvalue="Kotlin.spm.kotlin.world.opetorExample.OperatorMain" />
+      <item itemvalue="Kotlin.spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" />
+      <item itemvalue="Kotlin.spm.kotlin.world.sealedClass.FruitKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.sealedClass.FruitKt" />
-        <item itemvalue="Kotlin.basic.MyBasic2" />
-        <item itemvalue="Kotlin.opetorExample.OperatorMain" />
-        <item itemvalue="Kotlin.useOfAllOperator.UseOfOperatorExampleKt" />
-        <item itemvalue="Kotlin.delegatesInKotlin.MainUseOfDelegateKt" />
+        <item itemvalue="Kotlin.spm.kotlin.world.sealedClass.FruitKt" />
+        <item itemvalue="Kotlin.spm.kotlin.world.basic.MyBasic2" />
+        <item itemvalue="Kotlin.spm.kotlin.world.opetorExample.OperatorMain" />
+        <item itemvalue="Kotlin.spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" />
+        <item itemvalue="Kotlin.spm.kotlin.world.delegatesInKotlin.MainUseOfDelegateKt" />
       </list>
     </recent_temporary>
   </component>

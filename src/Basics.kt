@@ -1,5 +1,4 @@
-
-import initBlockExample.InitBlockDemo
+import spm.kotlin.world.initBlockExample.InitBlockDemo
 import kotlin.properties.Delegates
 
 internal object Basics {
@@ -56,7 +55,8 @@ internal object Basics {
     fun returnSum(a: Int, b: Int): Int {
         return a + b
     }
-    // function as expression
+
+    // spm.kotlin.world.function as expression
     fun expressionSum(a: Int, b: Int) = a + b
 
     fun maxOf(a: Int, b: Int): Int {

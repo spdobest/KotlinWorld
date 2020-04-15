@@ -20,7 +20,7 @@ https://github.com/mcxiaoke/awesome-kotlin
 3. Its More safety than Java -  Because its Immutablility of class and its Nullablity Check
 we will not get null pointer exception  
 4.Ensure More performance
-5. Supports high order function, we can pass function as method parameter
+5. Supports high order spm.kotlin.world.function, we can pass spm.kotlin.world.function as method parameter
 6. Kotlin and java are interpoble
 7. Kotlin is similar to Scripting language, its the next generation language
 8. 
@@ -57,13 +57,13 @@ let variable:Int = 123434
 
 ## **? and !! operator**  
 We can declare any variable using ? and !! operator or without using any operator at all.   
-var a:String? ="abc", when we declare any variable with ? operator, this means , the variable can be null anytime. We use ? operator for null safety. We have to assign value to the variable we declare with ? and also have to define the datatype of the variable. Otherwise it will show compile time error.  
+var a:String? ="abc", spm.kotlin.world.when we declare any variable with ? operator, this means , the variable can be null anytime. We use ? operator for null safety. We have to assign value to the variable we declare with ? and also have to define the datatype of the variable. Otherwise it will show compile time error.
 
 print(a?.length()) - if a is null , it will print nothing  
 Else it will print the length of the string  
 At the compile time, the compiler force us to handle the null pointer while doing any operation on the null values like 
 
-when we declare any variable like , question mark after the Datatype. that means you are saying that the value may be null some time.  
+spm.kotlin.world.when we declare any variable like , question mark after the Datatype. that means you are saying that the value may be null some time.
     
 var a:String? ="abc"
 here we are saying the compiler that the variable a can hold null.When we will do any operation on the variable a, the compiler will show compilertime error to handle null pointer exception.  
@@ -76,7 +76,7 @@ In the above case if a is null, it will through null pointer exception. If we ha
 fun parseInt(str: String): Int? {  
     // ...  
 }   
-This function explains that the return type can be null, so you have to handle    
+This spm.kotlin.world.function explains that the return type can be null, so you have to handle
 **variable without ? operator**  
 var a:String = "SIba"  
 a = null// it will show compile time error saying that the variable can be null.  
@@ -88,7 +88,7 @@ val l = b!!.length
 Thus, if you want an NPE, you can have it, but you have to ask for it explicitly, and it does not appear out of the blue.   
   
 **late init**  
-when we declare any variable as lateinit, this means the variable will be initialize later. if the variable is not assigned any value and we trying to use the variable, it will show runtime error. that is lateinit property variableName has not been initialized  
+spm.kotlin.world.when we declare any variable as lateinit, this means the variable will be initialize later. if the variable is not assigned any value and we trying to use the variable, it will show runtime error. that is lateinit property variableName has not been initialized
 example below  
 lateinit var name1:String
 
@@ -144,20 +144,20 @@ or(bits) – bitwise or
 xor(bits) – bitwise xor  
 inv() – bitwise inversion  
  
-Here is a short overview of what each function accepts and returns:  
+Here is a short overview of what each spm.kotlin.world.function accepts and returns:
   
 **PARAMETER	SAME	DIFFERENT**
 **it 	     also      	let
 **this	    apply	    run, with**  
   
-I was not particularly happy with the decision of standard library designers putting so many similar functions in, as they represent cognitive overload when analyzing the code. However, if you strictly use them for their intended purpose, they will state your intent and make the code more readable:  
+I was not particularly happy with the decision of standard library designers putting so many similar functions in, as they represent cognitive overload spm.kotlin.world.when analyzing the code. However, if you strictly use them for their intended purpose, they will state your intent and make the code more readable:
 
 **also:** additional processing on an object in a call chain  
 **apply:** post-construction configuration  
 **let:** conversion of value  
 **run:** execute lambdas with side-effects and no result  
 **with:** configure objects created somewhere else  
-Be careful when using these functions to avoid potential problems. Do not use with on nullable variables. Avoid nesting apply, run, and with, as you will not know the current this. For nested also and let, use a named parameter instead of it for the same reason. Avoid it in long call chains, as it is not clear what it represents.  
+Be careful spm.kotlin.world.when using these functions to avoid potential problems. Do not use with on nullable variables. Avoid nesting apply, run, and with, as you will not know the current this. For nested also and let, use a named parameter instead of it for the same reason. Avoid it in long call chains, as it is not clear what it represents.
   
 For examples, please follow the link below  
 **https://dzone.com/articles/examining-kotlins-also-apply-let-run-and-with-intentions**
@@ -189,7 +189,7 @@ val text = """
     """.trimMargin()  
 **Note** By default | is used as margin prefix, but you can choose another character and pass it as a parameter, like trimMargin(">").  
   
-## Control Flow: if, when, for, while    
+## Control Flow: if, spm.kotlin.world.when, for, while
   
 **If Expression**  
 In Kotlin, if is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else), because ordinary if works fine in this role.  
@@ -223,12 +223,12 @@ val max = if (a > b) {
 **NOTE - If you're using if as an expression rather than a statement (for example, returning its value or assigning it to a variable), the expression is required to have an else branch. **  
   
 **WHEN**  
-When replace the switch statement of java. Now when is more flexible and more powerful as compared to Switch.  
-Using **when** we can also compare more than one condition in one case   
+When replace the switch statement of java. Now spm.kotlin.world.when is more flexible and more powerful as compared to Switch.
+Using **spm.kotlin.world.when** we can also compare more than one condition in one case
   
-Instead of switch case we use when clause in kotlin. When is more powerful and dynamic in nature as compared to switch. We can declare multiple conditions in one case. The syntax is as follows  
+Instead of switch case we use spm.kotlin.world.when clause in kotlin. When is more powerful and dynamic in nature as compared to switch. We can declare multiple conditions in one case. The syntax is as follows
   
-when(value){
+spm.kotlin.world.when(value){
 
 case 1 ->{
 }
@@ -239,7 +239,7 @@ else{
 }}  
 Example  
   
-when(a){
+spm.kotlin.world.when(a){
 
 in 1..10 ->{
 print(" $a is in the range 1 to 10")
@@ -256,7 +256,7 @@ print(" none of the above condition")
 One more example with return type.  
   
 fun describe(obj: Any): String =  
-    when (obj) {  
+    spm.kotlin.world.when (obj) {
         1          -> "One"  
         "Hello"    -> "Greeting"  
         is Long    -> "Long"  
@@ -264,10 +264,10 @@ fun describe(obj: Any): String =
         else       -> "Unknown"  
     }  
       
-this when clause will return a string.       
+this spm.kotlin.world.when clause will return a string.
   
   **For Example**  
-when (x) {  
+spm.kotlin.world.when (x) {
     1 -> print("x == 1")  
     2 -> print("x == 2")  
     else -> { // Note the block  
@@ -275,14 +275,14 @@ when (x) {
     }  
 }  
    
-when (x) {  
+spm.kotlin.world.when (x) {
     0, 1 -> print("x == 0 or x == 1")  
     else -> print("otherwise")  
 }    
   
 We can use arbitrary expressions (not only constants) as branch conditions  
   
-when (x) {  
+spm.kotlin.world.when (x) {
     parseInt(s) -> print("s encodes x")  
     else -> print("s does not encode x")  
 }    
@@ -290,7 +290,7 @@ when (x) {
 We can also check a value for being in or !in a range or a collection:  
 
 
-when (x) {
+spm.kotlin.world.when (x) {
     in 1..10 -> print("x is in the range")
     in validNumbers -> print("x is valid")
     !in 10..20 -> print("x is outside the range")
@@ -328,7 +328,7 @@ for ((index, value) in array.withIndex()) {
 }  
   
 ## **Return And Jumps**   
-eturn. By default returns from the nearest enclosing function or anonymous function.  
+eturn. By default returns from the nearest enclosing spm.kotlin.world.function or anonymous spm.kotlin.world.function.
 break. Terminates the nearest enclosing loop.  
 continue. Proceeds to the next step of the nearest enclosing loop.  
 
@@ -439,7 +439,7 @@ class Derived() : Base() {
   
 ## **Collections**    
 Array is Mutable and fixed size
-Note : There are 2 types of collections in Kotlin
+Note : There are 2 types of spm.kotlin.world.collections in Kotlin
 1. imMutable Collection - Read Only Operation
     i.Immutable List - listOf
     ii.Immutable map - mapOf
@@ -525,8 +525,8 @@ Hashset contains unique element  but cant gurrent of the sequence of element
     Toast.makeText(this, message, duration) .show()  
  }  
  
- Explanation : To create a toast message, everytime we need to write the show method at the end of the function.  
- But in the extension function we just write the function with extra default parameters like, duration and aded show method at the end  
+ Explanation : To create a toast message, everytime we need to write the show method at the end of the spm.kotlin.world.function.
+ But in the extension spm.kotlin.world.function we just write the spm.kotlin.world.function with extra default parameters like, duration and aded show method at the end
    
  Here it is another interesting example that will let me explain another interesting concept: reified types.  
    
@@ -536,8 +536,8 @@ inline fun <reified T : Activity> Activity.navigate(id: String) {
     startActivity(intent)  
 }  
  
-Inline functions can use reified types, what means that we can recover the class from a type inside the function instead of having to pass the class type as an argument.  
-Inline functions are a bit different from regular functions. Inline functions will be substituted with its code during compilation, instead of really calling to a function. It will simplify some situations. For instance, if we have a function as an argument, a regular function will internally create an object that contains that function. On the other hand, inline functions will substitute the code of the function in the place where its called, so it won´t require an internal object for that.  
+Inline functions can use reified types, what means that we can recover the class from a type inside the spm.kotlin.world.function instead of having to pass the class type as an argument.
+Inline functions are a bit different from regular functions. Inline functions will be substituted with its code during compilation, instead of really calling to a spm.kotlin.world.function. It will simplify some situations. For instance, if we have a spm.kotlin.world.function as an argument, a regular spm.kotlin.world.function will internally create an object that contains that spm.kotlin.world.function. On the other hand, inline functions will substitute the code of the spm.kotlin.world.function in the place where its called, so it won´t require an internal object for that.
  
   
  

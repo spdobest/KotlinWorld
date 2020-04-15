@@ -1,6 +1,3 @@
-import com.sun.org.apache.bcel.internal.generic.FLOAD
-import sun.net.www.content.text.Generic
-
 internal object Hello {
 
     @JvmStatic
@@ -73,7 +70,7 @@ internal object Hello {
     }
 
     fun checkIfUseses(){
-        // The else branch is mandatory when using if as an expression.
+        // The else branch is mandatory spm.kotlin.world.when using if as an expression.
         val number = -10
 
         val result = if (number > 0) {

@@ -1,47 +1,33 @@
-# Kotlin for Beginners.
-https://www.youtube.com/watch?v=I6rkwJed-HY
-## Table Of Content
-- 1. Introduction – 04:13
-- 2. Hello World Program – 08:31
-- 3. How to create Android Project Using Kotlin – 18:38
-- 4. Class & Object – 24:18
-- 5. Var Val – 29:56
-- 6. Kotlin & Java together – 32:51
-- 7. Convert Java & Kotlin – 38:07
-- 8. Decompile Bytecode – 40:06
-- 9. Operators – 46:07
-- 10. String Template – 50:41
-- 11. If Else Expression – 54:11
-- 12. String Comparison – 57:47
-- 13. Null Handling – 01:02:11
-- 14. When Expression – 01:07:04
-- 15. Loop & Range – 01:14:34
-- 16. List & Map – 01:27:20
-- 17. Function Expression – 01:35:23
-- 18. Function calling from Java – 01:44:34
-- 19. Default and Named Parameters – 01:51:20
-- 20. String to Integer – 02:03:21
-- 21. Try Expression – 02:07:32
-- 22. Extension Function – 02:12:17
-- 23. Infix and Operator Overloading – 02:20:20
-- 24. Recursion – 02:27:05
-- 25. Recursion | Factorial – 02:34:46
-- 26. Tail Recursion – 02:41:12
-- 27. Constructor – 02:46:46
-- 28. Secondary Constructor – 02:53:29
-- 29. Inheritance – 02:58:46
-- 30. Constructor in Inheritance – 03:09:35
-- 31. Abstract class – 03:14:21
-- 32. Interface – 03:20:17
-- 33. Data Class – 03:29:32
-- 34. Object Keyword – 03:40:09
-- 35. Anonymous inner class – 03:46:54
-- 36. Companion Object – 03:53:31
-- 37. Companion Object | Factory Pattern – 03:59:08
-- 38. Backtick As Escape Character – 04:03:18
-- 39. User Input in Kotlin – 04:06:42
-- 40. Array – 04:11:48
-- 41. List – 04:21:53
-- 42. List of Objects – 04:30:01
-- 43. Higher Order Function – 04:35:15
-- 44. Filter and Map – 04:49:06
+# Kotlin for Beginners
+## features of Kotlin
+Following are seven main features of Kotlin:
+- Concise code : we can write more code in less lines
+- Null safety : by using ? , !! and elvish operator
+- Expressive code : Expressive code means the code that can be easily understandable by every programmer.
+- Modern features : like lambda, extension function, higher order function
+- Interoperability with Java - we can convert java to kotlin code, and java code can also accesed from kotlin and vice versa
+- JavaScript transpilation : We can write javascript code in kotlin as well.
+- Native conversion (Kotlin Native) : Native conversion like converting to IOS, c language
+    Kotlin Native supports the following platforms:
+    - iOS (arm32, arm64, emulator x86_64)
+    - MacOS (x86_64)
+    - Android (arm32, arm64)
+    - Windows (mingw x86_64)
+    - Linux (x86_64, arm32, MIPS, MIPS little endian)
+    - WebAssembly (wasm32)
+
+## Basics
+### Data type
+- In kotlin everything is object.
+- numbers, characters and booleans can be represented as primitive values at runtime - but to the user they look like ordinary classes
+
+**Numbers**
+Kotlin provides a set of built-in types that represent numbers.
+For integer numbers, there are four types with different sizes and, hence, value ranges.
+
+TypeSize(bits)Min     value	Max     value
+Byte	 8	    -128	127
+Short	16	-32768	32767
+Int	32	-2,147,483,648 (-231)	2,147,483,647 (231 - 1)
+Long	64	-9,223,372,036,854,775,808 (-263)	9,223,372,036,854,775,807 (263 - 1)
+

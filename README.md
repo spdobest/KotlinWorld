@@ -24,7 +24,7 @@ Following are seven main features of Kotlin:
 **Numbers**
 Kotlin provides a set of built-in types that represent numbers.
 For integer numbers, there are four types with different sizes and, hence, value ranges.
-![alt tag](https://github.com/spdobest/wipro_weather_assignment/blob/master/screenshots/Kotlin_Numbers.png)
+![alt tag](https://github.com/spdobest/Kotlin-World/blob/Kotlin_Beginners/resources/Kotlin_Numbers.png)
 
 
 

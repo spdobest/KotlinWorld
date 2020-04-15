@@ -24,12 +24,7 @@ Following are seven main features of Kotlin:
 **Numbers**
 Kotlin provides a set of built-in types that represent numbers.
 For integer numbers, there are four types with different sizes and, hence, value ranges.
-
-Type   Size(bits)  Min_value	        Max_value
-Byte	 8	        -128	                127
-Short	16	        -32768	                32767
-Int	    32	     -2,147,483,648(-231)      2,147,483,647 (231 - 1)
-Long	64	-9,223,372,036,854,775,808 (-263)	9,223,372,036,854,775,807 (263 - 1)
+![alt tag](https://github.com/spdobest/wipro_weather_assignment/blob/master/screenshots/Kotlin_Numbers.png)
 
 
 

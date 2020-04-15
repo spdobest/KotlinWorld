@@ -16,4 +16,8 @@ open class Function1 {
         println("FUnction without Parameters ${name}")
     }
 
+    fun sum(a:Int,b:Int,c:Int){
+        println("Sum of $a , $b and $c is ${a+b-c}")
+    }
+
 }

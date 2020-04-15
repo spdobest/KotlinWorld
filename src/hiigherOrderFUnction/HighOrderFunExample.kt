@@ -49,7 +49,7 @@ class Program{
     }
 
     fun addNumberUsingLambda(num1:Int,num2:Int,action:(Int) -> Unit){
-        action(num1+num2)
+        var res = action(num1+num2)
     }
 
     fun addNumberUsingLambdaReturn(num1:Int,num2:Int,action:(Int,Int) -> Int){

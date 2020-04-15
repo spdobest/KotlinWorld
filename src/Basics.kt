@@ -1,13 +1,19 @@
 
+import initBlockExample.InitBlockDemo
 import kotlin.properties.Delegates
 
 internal object Basics {
 
     lateinit var testInit: String
+     var abc: String? = ""
     var testDelegate by Delegates.notNull<String>()
     @JvmStatic
     fun main(args: Array<String>) {
 
+        val init: InitBlockDemo = InitBlockDemo()
+        init.printInstanceMethod()
+        InitBlockDemo.print()
+        
         val nan = Double.NaN
         println("1: " + (nan == nan))
         println("2: " + (nan == (nan as Number)))

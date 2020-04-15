@@ -6,6 +6,8 @@ internal object MyBasic1 {
 
     const val MAX_LEN = 20
 
+
+
     val s1 by lazy { 123 }
 
     val s: String?
@@ -17,8 +19,6 @@ internal object MyBasic1 {
 
     @JvmStatic
     fun main(args: Array<String>) {
-
-
 
         val items = listOf("banana", "avocado", "apple", "kiwifruit")
         when {
@@ -83,7 +83,6 @@ internal object MyBasic1 {
 
         a = null
 
-        print(a!!.length)
     }
 
     fun checkGrayCode( val1:Int, val2:Int){

@@ -15,14 +15,18 @@ object OperatorMain {
 
         useOfLazy()
 
-        useOfRun()
         useOfLet()
 
+        useOfRun()
+
         useOfAlso()
+
         useOfApply()
 
         useOfWith()
+
         funUseof_is_as()
+
         useOfFIlter()
         // we will get to know different type of operator
 
@@ -140,7 +144,7 @@ object OperatorMain {
      */
 
     fun useOfLet(){
-        println("==========use of LET==============")
+        println("========== use of LET ==============")
         val person = Person("Edmund", 42)
         println(person)
         val result = person.let { it.age * 2 }
@@ -180,7 +184,7 @@ object OperatorMain {
         val result = person.also { person -> person.age = 50
             person.name = person.name.capitalize()}
         println("After apply ALso Operator , result is $result")
-        println("After apply ALso Operator , the object is$person")
+        println("After apply ALso Operator , the object is $person")
     }
 
     /**

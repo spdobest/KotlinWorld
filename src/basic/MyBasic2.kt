@@ -32,6 +32,7 @@ internal object MyBasic2{
 
     @JvmStatic
     fun main(args: Array<String>) {
+
         comparisonBetweenEqualAndDoubleEqual()
 
 
@@ -40,6 +41,13 @@ internal object MyBasic2{
         print(c)
 """
         println(text)
+
+        var nm = "Sibaprasad"
+        nm = nm.plus("SIbaprasad")
+        print(nm)
+
+        var num  = 1234
+        num = num.plus(1234)
 
     }
 
@@ -51,11 +59,21 @@ internal object MyBasic2{
         // for structural equality, we use the == symbol that evaluates if both values are the same
         // for structural as well as reference equality we use ===, it will compare the value and address of both the variable
 
-        println(a===b) // false
-        println(a==b)  // true
+
+        /**
+         * NOTE
+         * we use == operator to check structural equality, i.e to compare the content between 2 variables
+         * we use === operator to check reference equality, i.e to compare the address of the 2 variable
+         *
+         *
+         */
+
+        println(a===b) // false // because both the variables pointing to different memory address
+        println(a==b)  // true  // because both the content of the both the variable are same , i.e 10
 
         var c = a
         println(a===c) // true, because both c and a point to one memory  location where 10 is stored
+        println(a==c) // true ,  because both c and a pointing to the same memoty location
 
         val hobbies = arrayOf("Hiking, Chess")
         val hobbies2 = arrayOf("Hiking, Chess")
@@ -70,6 +88,8 @@ internal object MyBasic2{
 
         println(user1 == user2)  // true, because it compare the content of the object
         println(user1 === user2) //false, because it compare the reference of the two objects
+        println(user1 == user2)
+        println(user1 === user2)
     }
     data class User(val name: String, val age: Int)
 

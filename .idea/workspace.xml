@@ -1,11 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea6fc53a-d8f5-451c-97f4-df99580dec14" name="Default" comment="added read me file">
-      <change afterPath="$PROJECT_DIR$/resources/Kotlin_Numbers.png" afterDir="false" />
+    <list default="true" id="ea6fc53a-d8f5-451c-97f4-df99580dec14" name="Default" comment="added image file">
+      <change afterPath="$PROJECT_DIR$/resources/HowKotlinWorks.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/kotlin_float.JPEG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/BreakExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/ContinueExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/HelloWorld.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/abstractExample/AbstractExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/classesANdObject/ClassExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/classesANdObject/SecondaryConstructor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/extensionFUnction/ExtensionFunctionExample1.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/infixFunction/InfixExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/interfaces/InterfaceExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/interoperability/MyJavaClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/interoperability/MyKotlinclass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/tailrec/TailrecFunExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/visibilityModifier/MySecondVisibility.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/visibilityModifier/TestClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/visibilityModifier/VisibilityExample.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Basics$filterExample$$inlined$sortedBy$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Basics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/META-INF/Workspace.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/META-INF/Workspace.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/Basic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic1$s1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2$User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/NullPointerExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basics/KotlinDatatype$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basics/KotlinDatatype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basics/KotlinDatatypeKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basics/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/collections/ColectionMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/collections/ListOperationMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/collections/MapOperationMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/collections/SetOperationMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/controlFlow/IfElse1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/BirdInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/Cockoo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/Eagle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/MainUseOfDelegateKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/doWhile/DowhileLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/doWhile/WhileMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType$GOLD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType$PLATINUM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType$SILVER.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/DayOfWeek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/EnumClass1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/ICardLimit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/extensionFunction/ExtFUnctionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/extensionFunction/ExtensionFunExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/extensionFunction/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/forLoop/For.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/forLoop/ForMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/function/Function1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/function/FunctionExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/function/FunctionMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/Execute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/initBlockExample/InitBlockDemo$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/initBlockExample/InitBlockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/nullpointer_handling/NullPointerMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/MyObject1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/abstractClass/MyAbstractClassMain1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/DontCreateMe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/InitOrderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/Person1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/dataClss/MyDataClassMain1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/delegate/My7DelegateMain1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Bar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Derived.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Foo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/MyInheritanceMain1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/interfc/MyInterfaceMain1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/Const.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/Expr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/NotANumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/UseOfSealedMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/opetorExample/OperatorMain$useOfLazy$lazyValue$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/opetorExample/OperatorMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/opetorExample/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/BreakExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/ContinueExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/ReturnExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/ReturnJumpMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/sealedClass/Fruit$Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/sealedClass/Fruit$Orange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/sealedClass/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/sealedClass/FruitKt$main$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/sealedClass/FruitKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/tailrecFunction/TailRecFunctionExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/udemy1/ArrayANdArraylist1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/useOfAllOperator/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/useOfAllOperator/UseOfOperatorExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/useOfLazy/LazyExampleKt$main$pi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/useOfLazy/LazyExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/when/When1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/when/WhenMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/whileLoop/WhileLoop1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/whileLoop/WhileMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/BasicSyntax.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/BasicSyntax.kt" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,29 +133,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
+            <state relative-caret-position="398">
+              <caret line="352" selection-start-line="352" selection-end-line="352" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/classesANdObject/ClassExample.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/asdasd.kt">
+        <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/classesANdObject/SecondaryConstructor.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="180">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/BasicSyntax.kt">
+        <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/visibilityModifier/TestClass.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="135">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/interfaces/InterfaceExample.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/abstractExample/AbstractExample.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/tailrec/TailrecFunExample.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/visibilityModifier/VisibilityExample.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/visibilityModifier/MySecondVisibility.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -51,9 +222,15 @@
         <option value="Kotlin Object" />
         <option value="Kotlin Class" />
         <option value="FxmlFile" />
+        <option value="Class" />
         <option value="Kotlin File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>alt</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,16 +246,33 @@
         <option value="$PROJECT_DIR$/src/basic/MyBasic2.kt" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/spm/kotlin/world/useOfLazy/LazyExample.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/asdasd.kt" />
         <option value="$PROJECT_DIR$/src/spm/kotlin/world/BasicSyntax.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/HelloWorld.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/ContinueExample.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/BreakExample.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/interoperability/MyJavaClass.java" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/interoperability/MyKotlinclass.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/extensionFUnction/ExtensionFunctionExample1.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/infixFunction/InfixExample.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/tailrec/TailrecFunExample.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/visibilityModifier/VisibilityExample.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/visibilityModifier/MySecondVisibility.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/visibilityModifier/A.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/visibilityModifier/TestClass.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/interfaces/InterfaceExample.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/abstractExample/AbstractExample.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/classesANdObject/ClassExample.kt" />
+        <option value="$PROJECT_DIR$/src/spm/kotlin/world/classesANdObject/SecondaryConstructor.kt" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
+    <option name="x" value="38" />
     <option name="y" value="23" />
-    <option name="width" value="1265" />
-    <option name="height" value="704" />
+    <option name="width" value="1225" />
+    <option name="height" value="703" />
   </component>
   <component name="ProjectId" id="1VhfiDwoOECXPmTeeRabKkge80Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -87,7 +281,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -97,13 +291,24 @@
             </path>
             <path>
               <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="world" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -121,17 +326,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/spm/kotlin/world/useOfLazy" />
-    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="hiigherOrderFUnction" />
       <recent name="opetorExample" />
       <recent name="collections" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/spm/kotlin/world/useOfLazy" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -146,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.sealedClass.FruitKt">
+  <component name="RunManager" selected="Kotlin.spm.kotlin.world.classesANdObject.SecondaryConstructorKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -166,66 +372,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="basic.MyBasic2" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="spm.kotlin.world.classesANdObject.ClassExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="basic.MyBasic2" />
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.classesANdObject.ClassExampleKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="delegatesInKotlin.MainUseOfDelegateKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="spm.kotlin.world.classesANdObject.SecondaryConstructorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="delegatesInKotlin.MainUseOfDelegateKt" />
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.classesANdObject.SecondaryConstructorKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="opetorExample.OperatorMain" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="spm.kotlin.world.infixFunction.InfixExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="opetorExample.OperatorMain" />
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.infixFunction.InfixExampleKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="sealedClass.FruitKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="spm.kotlin.world.interoperability.KotlinFileName" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="sealedClass.FruitKt" />
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.interoperability.KotlinFileName" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="useOfAllOperator.UseOfOperatorExampleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="spm.kotlin.world.tailrec.TailrecFunExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="useOfAllOperator.UseOfOperatorExampleKt" />
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.tailrec.TailrecFunExampleKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -250,19 +456,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.basic.MyBasic2" />
-      <item itemvalue="Kotlin.delegatesInKotlin.MainUseOfDelegateKt" />
-      <item itemvalue="Kotlin.opetorExample.OperatorMain" />
-      <item itemvalue="Kotlin.useOfAllOperator.UseOfOperatorExampleKt" />
-      <item itemvalue="Kotlin.sealedClass.FruitKt" />
+      <item itemvalue="Kotlin.spm.kotlin.world.classesANdObject.ClassExampleKt" />
+      <item itemvalue="Kotlin.spm.kotlin.world.classesANdObject.SecondaryConstructorKt" />
+      <item itemvalue="Kotlin.spm.kotlin.world.infixFunction.InfixExampleKt" />
+      <item itemvalue="Kotlin.spm.kotlin.world.interoperability.KotlinFileName" />
+      <item itemvalue="Kotlin.spm.kotlin.world.tailrec.TailrecFunExampleKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.sealedClass.FruitKt" />
-        <item itemvalue="Kotlin.useOfAllOperator.UseOfOperatorExampleKt" />
-        <item itemvalue="Kotlin.opetorExample.OperatorMain" />
-        <item itemvalue="Kotlin.delegatesInKotlin.MainUseOfDelegateKt" />
-        <item itemvalue="Kotlin.basic.MyBasic2" />
+        <item itemvalue="Kotlin.spm.kotlin.world.classesANdObject.SecondaryConstructorKt" />
+        <item itemvalue="Kotlin.spm.kotlin.world.classesANdObject.ClassExampleKt" />
+        <item itemvalue="Kotlin.spm.kotlin.world.tailrec.TailrecFunExampleKt" />
+        <item itemvalue="Kotlin.spm.kotlin.world.infixFunction.InfixExampleKt" />
+        <item itemvalue="Kotlin.spm.kotlin.world.interoperability.KotlinFileName" />
       </list>
     </recent_temporary>
   </component>
@@ -317,14 +523,28 @@
       <option name="project" value="LOCAL" />
       <updated>1586966812795</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added read me file">
+      <created>1586967073426</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586967073426</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added image file">
+      <created>1586967127812</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586967127812</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="23" width="1265" height="704" extended-state="0" />
+    <frame x="38" y="23" width="1225" height="703" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25347507" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2561285" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -333,7 +553,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3715221" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -341,6 +561,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.5375817" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.5695581" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -358,7 +579,8 @@
     <MESSAGE value="First Commit" />
     <MESSAGE value="package name assigned" />
     <MESSAGE value="added read me file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added read me file" />
+    <MESSAGE value="added image file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added image file" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -404,15 +626,140 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/BasicSyntax.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="212">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/BasicSyntaxKt.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/HelloWorld.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/ContinueExample.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/HelloWorldKt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/ContinueExampleKt.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Workspace/spm/kotlin/world/BreakExampleKt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/BreakExample.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/interoperability/MyJavaClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/interoperability/MyKotlinclass.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="15" selection-start-line="15" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/infixFunction/InfixExample.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="16" lean-forward="true" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/extensionFUnction/ExtensionFunctionExample1.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="14" column="21" selection-end-line="43" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/classesANdObject/SecondaryConstructor.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/visibilityModifier/TestClass.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/interfaces/InterfaceExample.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/abstractExample/AbstractExample.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/tailrec/TailrecFunExample.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/visibilityModifier/VisibilityExample.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/visibilityModifier/MySecondVisibility.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="90" selection-start-line="25" selection-start-column="90" selection-end-line="25" selection-end-column="90" />
+        <state relative-caret-position="398">
+          <caret line="352" selection-start-line="352" selection-end-line="352" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/spm/kotlin/world/classesANdObject/ClassExample.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>

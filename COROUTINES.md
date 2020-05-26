@@ -123,21 +123,21 @@ Dispatchers.Main: recommended dispatcher for performing UI-related events. For e
 You’ll use some of these dispatchers to switch between the main and background threads. One last step before you can launch coroutines – defining a CoroutineScope.  
   
 **NOTE-** Suspend functions are only allowed to be called from a coroutine or another suspend spm.kotlin.world.function. You can see that the async spm.kotlin.world.function which includes the keyword suspend. So, in order to use that, we need to make our spm.kotlin.world.function suspend too.
-  
-GlobalScope.launch(Dispatchers.Main) {  
-  fetchAndShowUser()  
-}   
-      
-Actually the above code is as below if we simplify the code  
-  
+```
+  GlobalScope.launch(Dispatchers.Main) {  
+    fetchAndShowUser()  
+  }  
+```   
+- Actually the above code is as below if we simplify the code  
+```
 GlobalScope.launch(Dispatchers.Main) {  
    val user = fetchUser() // fetch on IO thread  
    showUser(user)         // back on UI thread  
 }       
-  
-Here fetchAndShowUser() is a suspend spm.kotlin.world.function where we do the network operation and after getting the result we delever the result in the main thread.
-  
-showUser will run on UI thread because we have used the Dispatchers.Main to launch it.  
+```
+- Here **fetchAndShowUser()** is a suspend spm.kotlin.world.function where we do the network operation and after getting the result we delever the result in the main thread.
+- showUser will run on UI thread because we have used the Dispatchers.Main to launch it.  
+
 There are two functions in Kotlin to start the coroutines which are as follows:  
   
 **1. launch{}  
@@ -146,59 +146,59 @@ There are two functions in Kotlin to start the coroutines which are as follows:
 **Launch vs Async in Kotlin Coroutines**  
   
 The difference is that the launch{} does not return anything and the async{}returns an instance of Deferred<T>, which has an await()spm.kotlin.world.function that returns the result of the coroutine like we have future in Java in which we do future.get() to the get the result.
-  
+```
 fun fetchUserAndSaveInDatabase() {  
     // fetch user from network  
     // save user in database  
     // and do not return anything  
 }  
+```
+- Now, we can use the launch like below:  
+```  
+  GlobalScope.launch(Dispatchers.IO) {  
+      fetchUserAndSaveInDatabase() // do on IO thread  
+  }
+```  
   
-Now, we can use the launch like below:  
-GlobalScope.launch(Dispatchers.IO) {  
-    fetchUserAndSaveInDatabase() // do on IO thread  
-}  
-  
-As the fetchUserAndSaveInDatabase do not return anything, we can use the launch.  
-  
-But spm.kotlin.world.when we need the result back then we must have to use async.Look into the below example
-  
-Lets there are 2 methods fetchFIrstUser() and fetchSecondUser() which returns User object after fetching from the network.  
+- As the fetchUserAndSaveInDatabase do not return anything, we can use the launch.  
+- But spm.kotlin.world.when we need the result back then we must have to use async.Look into the below example
+- Lets there are 2 methods fetchFIrstUser() and fetchSecondUser() which returns User object after fetching from the network.  
+```
 fun fetchFirstUser(): User {  
     // make network call  
     // return user  
-}  
-  
+}    
 fun fetchSeconeUser(): User {  
     // make network call   
     // return user  
 }  
-  
+```  
 No need to make the above functions as suspend as we are not calling any other suspend spm.kotlin.world.function from them.
   
 Now, we can use the async like below:  
-  
+```  
 GlobalScope.launch(Dispatchers.Main) {  
     val userOne = async(Dispatchers.IO) { fetchFirstUser() }  
     val userTwo = async(Dispatchers.IO) { fetchSeconeUser() }  
     showUsers(userOne.await(), userTwo.await()) // back on UI thread  
 }    
-  
+```  
 Here, it makes both the network call in parallel, await for the results and then call the showUsers spm.kotlin.world.function.
   
 **withContext** is nothing but an another way writing the async where we do not have to write await().Look at the example below  
-  
+```  
 suspend fun fetchUser(): User {  
     return withContext(Dispatchers.IO) {  
         // make network call  
         // return user  
     }  
 }  
-  
+```  
 Now we will understand the scope in the below example  
 Scopes in Kotlin Coroutines are very useful because we need to cancel the background task as soon as the activity is destroyed. Here, we will learn how to use scopes to handle these types of situation.  
   
 Assuming that our activity is the scope, the background task should get canceled as soon as the activity is destroyed.Our activity will look like this  
-  
+```  
 class MainActivity : AppCompatActivity(), CoroutineScope {  
   private lateinit var job: Job  
 
@@ -215,7 +215,7 @@ class MainActivity : AppCompatActivity(), CoroutineScope {
     super.onDestroy()  
   }      
 }  
-  
+```  
 Now, just use the launch like below:  
   
 launch {  

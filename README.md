@@ -14,91 +14,91 @@ https://github.com/mcxiaoke/awesome-kotlin
 
 
 ## **Advantage of Kotlin Over Java**  
-
-1. Kotlin is more flexible than java  
-2.Kotlin is concise - means we can perform more task with less code  
-3. Its More safety than Java -  Because its Immutablility of class and its Nullablity Check
+- Kotlin is more flexible than java  
+- Kotlin is concise - means we can perform more task with less code  
+- Its More safety than Java -  Because its Immutablility of class and its Nullablity Check
 we will not get null pointer exception  
-4.Ensure More performance
-5. Supports high order spm.kotlin.world.function, we can pass spm.kotlin.world.function as method parameter
-6. Kotlin and java are interpoble
-7. Kotlin is similar to Scripting language, its the next generation language
-8. 
-
-## **How Hello World Program Works**
-in kotlin
+- Ensure More performance
+- Supports high order spm.kotlin.world.function, we can pass spm.kotlin.world.function as method parameter
+- Kotlin and java are interpoble
+- Kotlin is similar to Scripting language, its the next generation language 
+ 
+## How Hello World Program Works
+- in kotlin
+```
 fun main(args:Array<String>){
  println("Hello")
  }
- It dont have class define, but it executes perfectly. The Kotlin Compiler creates a class  file which is loaded intomemory at runtime.  
+``` 
+- It dont have class define, but it executes perfectly. The Kotlin Compiler creates a class  file which is loaded intomemory at runtime.  
  During compile time, Kotlin compiler convert the Myclass.kt file to MyClasskt  
  Once we run the class , MyClasskt.class file will be generate by java runtime  
- 
+ ```
  print(10/9)  output = 1
  print(10.0/9)  output is 1.1223
- 
-
-
-## **Basic Syntax**
-
-**var** keyword used for variable declaration  
-var a // it will show error  
-because if u declare a variable without any datatytpe, then you have to assign some value to the variable  
-var a = 123 // it will not show any error    
-var is only to declare not null type variables, we cant assign any null value to the variable declared as var
-it will show error - null cant be the value of a non null type  
+ ```
+## Basic Syntax
+- **var** keyword used for variable declaration  
+- ```var a``` // it will show error  
+- because if u declare a variable without any datatytpe, then you have to assign some value to the variable  
+- var a = 123 // it will not show any error    
+- var is only to declare not null type variables, we cant assign any null value to the variable declared as var
+- it will show error - null cant be the value of a non null type  
   
-**val** keyword used to define any constants value  
-its nothing but the **final** keyword in java
-the value cant be changed
+## val
+- keyword used to define any constants value  
+- its nothing but the **final** keyword in java
+- the value cant be changed
+```
 let a = 123
 let variable:Int = 123434
-
+```
 
 ## **? and !! operator**  
-We can declare any variable using ? and !! operator or without using any operator at all.   
-var a:String? ="abc", spm.kotlin.world.when we declare any variable with ? operator, this means , the variable can be null anytime. We use ? operator for null safety. We have to assign value to the variable we declare with ? and also have to define the datatype of the variable. Otherwise it will show compile time error.
-
-print(a?.length()) - if a is null , it will print nothing  
-Else it will print the length of the string  
-At the compile time, the compiler force us to handle the null pointer while doing any operation on the null values like 
-
-spm.kotlin.world.when we declare any variable like , question mark after the Datatype. that means you are saying that the value may be null some time.
-    
-var a:String? ="abc"
-here we are saying the compiler that the variable a can hold null.When we will do any operation on the variable a, the compiler will show compilertime error to handle null pointer exception.  
-  
+- We can declare any variable using **?** and **!!** operator or without using any operator at all.   
+- **var a:String? ="abc"**, when we declare any variable with ? operator, this means , the variable can be null anytime. We use ? operator for null safety. We have to assign value to the variable we declare with ? and also have to define the datatype of the variable. Otherwise it will show compile time error.
+- ```print(a?.length())``` - if a is null , it will print nothing  
+- Else it will print the length of the string  
+- At the compile time, the compiler force us to handle the null pointer while doing any operation on the null values like 
+- when we declare any variable like , question mark after the Datatype. that means you are saying that the value may be null some time.
+```var a:String? ="abc"```
+- here we are saying the compiler that the variable a can hold null.When we will do any operation on the variable a, the compiler will show compilertime error to handle null pointer exception.  
+```
 println(a.length)  // it will show compile time error that the value can be null  
 println(a!!.length) // it will not show any error now, because we handle Null pointer exceptin  
-  
-In the above case if a is null, it will through null pointer exception. If we handle using try cache, it will be okay else it will crash.  
-  
+```
+- In the above case if a is null, it will through null pointer exception. If we handle using try cache, it will be okay else it will crash.  
+```  
 fun parseInt(str: String): Int? {  
     // ...  
-}   
-This spm.kotlin.world.function explains that the return type can be null, so you have to handle
-**variable without ? operator**  
-var a:String = "SIba"  
+}  
+```
+- This function explains that the return type can be null, so you have to handle
+## variable without ? operator 
+```
+var a:String = "SIba"
 a = null// it will show compile time error saying that the variable can be null.  
-  
-**Use of !! - null assertion operator (!!)**  
- The third option is for NPE-lovers: the not-null assertion operator (!!) converts any value to a non-null type and throws an exception if the value is null. We can write b!!, and this will return a non-null value of b (e.g., a String in our example) or throw an NPE if b is null:  
-  
-val l = b!!.length  
-Thus, if you want an NPE, you can have it, but you have to ask for it explicitly, and it does not appear out of the blue.   
-  
-**late init**  
-spm.kotlin.world.when we declare any variable as lateinit, this means the variable will be initialize later. if the variable is not assigned any value and we trying to use the variable, it will show runtime error. that is lateinit property variableName has not been initialized
-example below  
+```  
+## Use of !! - null assertion operator (!!)**  
+- The third option is for NPE-lovers: the not-null assertion operator (!!) converts any value to a non-null type and throws an exception if the value is null. 
+- We can write b!!, and this will return a non-null value of b (e.g., a String in our example) or throw an NPE if b is null:  
+ - ```val l = b!!.length```  
+- Thus, if you want an NPE, you can have it, but you have to ask for it explicitly, and it does not appear out of the blue.   
+## late init
+- when we declare any variable as lateinit, this means the variable will be initialize later. 
+- If the variable is not assigned any value and we trying to use the variable, it will show runtime error. that is lateinit property variableName has not been initialized
+- Here is how to declare lateinit variable
+```
 lateinit var name1:String
-
-println(name1.length) // it will show runtime error , that the variable is not initialized or assigned any value.
-  
+```
+- here is the example how to use it
+```
+println(name1.length) // it will show runtime error , that the variable is not initialized or assigned any value
 name1 = "Sibaprasad"  
 println(name1.length)  // it will print the length of the variable without any error. because this variable is assigned value later with "Sibaprasad"  
-  
-**Here are the DataType List and their Range**     
-*Type	     Bit width*  
+```
+## Here are the DataType List and their Range  
+**Type**	     **Bit width*  
  Double       64(Bit)  
  Float        32(Bit)    
  Long         64(Bit)    
@@ -106,25 +106,24 @@ println(name1.length)  // it will print the length of the variable without any e
  Short        16(Bit)    
  Byte          8(Bit)    
 
-**Underscores in numeric literals (since 1.1)**  
-You can use underscores to make number constants more readable:  
-*ForExample*  
+**NOTE:Underscores in numeric literals (since 1.1)**  
+- You can use underscores to make number constants more readable:  
+- *ForExample*  
+```
 val oneMillion = 1_000_000  
 val creditCardNumber = 1234_5678_9012_3456L  
 val socialSecurityNumber = 999_99_9999L  
 val hexBytes = 0xFF_EC_DE_5E  
 val bytes = 0b11010010_01101001_10010100_10010010    
-
+```
 **NOTE :** Kotlin doesnot support implicit type coversion, It supports only explicit data conversion 
-
-For example  
+- For example  
+```
 var a:Int = 123
 var b:Long = a // it will show error
-
 var b:Long = a.ToLong() // it will execute successfully  
-  
-Every number type supports the following conversions:  
-
+```  
+## Every number type supports the following conversions:  
 **toByte(): Byte    
 toShort(): Short  
 toInt(): Int  
@@ -132,34 +131,69 @@ toLong(): Long
 toFloat(): Float  
 toDouble(): Double  
 toChar(): Char**  
-
-**Operators**  
-Here is the complete list of bitwise operations (available for Int and Long only):  
-
-shl(bits) – signed shift left (Java's <<)  
-shr(bits) – signed shift right (Java's >>)  
-ushr(bits) – unsigned shift right (Java's >>>)  
-and(bits) – bitwise and  
-or(bits) – bitwise or  
-xor(bits) – bitwise xor  
-inv() – bitwise inversion  
+## Type Checks and Casts: 'is' and 'as'
+- is and !is Operators
+- We can check whether an object conforms to a given type at runtime by using the is operator or its negated form !is:
+```
+if (obj is String) {
+    print(obj.length)
+}
+​
+if (obj !is String) { // same as !(obj is String)
+    print("Not a String")
+}
+else {
+    print(obj.length)
+}
+```
+- **Unsafe cast operator as**
+- val x: String = y as String
+- **Safe Cast operator as?**
+- val x: String? = y as String?
+- **Nullable cast Operator as**
+- val x: String? = y as? String
+## Operators
+- Here is the complete list of bitwise operations (available for Int and Long only):  
+- **shl(bits)** – signed shift left (Java's <<)  
+- **shr(bits)** – signed shift right (Java's >>)  
+- **ushr(bits)** – unsigned shift right (Java's >>>)  
+- **and(bits)** – bitwise and  
+- **or(bits)** – bitwise or  
+- **xor(bits)** – bitwise xor  
+- **inv()** – bitwise inversion  
  
-Here is a short overview of what each spm.kotlin.world.function accepts and returns:
+Here is a short overview of what each function accepts and returns:
   
-**PARAMETER	SAME	DIFFERENT**
+**SAME PARAMETER	DIFFERENT RESULT**
 **it 	     also      	let
 **this	    apply	    run, with**  
-  
-I was not particularly happy with the decision of standard library designers putting so many similar functions in, as they represent cognitive overload spm.kotlin.world.when analyzing the code. However, if you strictly use them for their intended purpose, they will state your intent and make the code more readable:
+- I was not particularly happy with the decision of standard library designers putting so many similar functions in, as they represent cognitive overload spm.kotlin.world.when analyzing the code. However, if you strictly use them for their intended purpose, they will state your intent and make the code more readable:
 
-**also:** additional processing on an object in a call chain  
-**apply:** post-construction configuration  
-**let:** conversion of value  
-**run:** execute lambdas with side-effects and no result  
-**with:** configure objects created somewhere else  
-Be careful spm.kotlin.world.when using these functions to avoid potential problems. Do not use with on nullable variables. Avoid nesting apply, run, and with, as you will not know the current this. For nested also and let, use a named parameter instead of it for the same reason. Avoid it in long call chains, as it is not clear what it represents.
-  
-For examples, please follow the link below  
+## Scope Functions
+- For more details follow **https://kotlinlang.org/docs/reference/scope-functions.html**
+## also
+- additional processing on an object in a call chain  
+
+## apply
+- post-construction configuration  
+
+## let 
+- conversion of value  
+
+## run
+- execute lambdas with side-effects and no result  
+
+## with 
+- configure objects created somewhere else  
+
+## takeIf and takeUnless
+- When called on an object with a predicate provided, takeIf returns this object if it matches the predicate. Otherwise, it returns null. So, takeIf is a filtering function for a single object. 
+- In turn, takeUnless returns the object if it doesn't match the predicate and null if it does. The object is available as a lambda argument (it).
+
+- Be careful when using these functions to avoid potential problems. Do not use with on nullable variables. 
+- Avoid nesting apply, run, and with, as you will not know the current this. For nested also and let, use a named parameter instead of it for the same reason. 
+- Avoid it in long call chains, as it is not clear what it represents.
+- For examples, please follow the link below  
 **https://dzone.com/articles/examining-kotlins-also-apply-let-run-and-with-intentions**
 
 **The operations on floating point numbers discussed in this section are:**    
@@ -191,11 +225,11 @@ val text = """
   
 ## Control Flow: if, spm.kotlin.world.when, for, while
   
-**If Expression**  
-In Kotlin, if is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else), because ordinary if works fine in this role.  
-  
-For Example  
+## If Expression  
+- In Kotlin, if is an expression, i.e. it returns a value. Therefore there is no ternary operator (condition ? then : else), because ordinary if works fine in this role.  
+- For Example  
 // Traditional usage   
+```
 var max = a   
 if (a < b) max = b  
   
@@ -206,12 +240,11 @@ if (a > b) {
 } else {  
     max = b  
 }  
-   
-// As expression   
-val max = if (a > b) a else b  
-
-if branches can be blocks, and the last expression is the value of a block:  
-  
+```   
+- As expression   
+```val max = if (a > b) a else b```
+- if branches can be blocks, and the last expression is the value of a block:  
+```
 val max = if (a > b) {  
     print("Choose a")  
     a  
@@ -219,28 +252,26 @@ val max = if (a > b) {
     print("Choose b")  
     b  
 }  
+```
+- **NOTE - If you're using if as an expression rather than a statement (for example, returning its value or assigning it to a variable), the expression is required to have an else branch. **  
   
-**NOTE - If you're using if as an expression rather than a statement (for example, returning its value or assigning it to a variable), the expression is required to have an else branch. **  
-  
-**WHEN**  
-When replace the switch statement of java. Now spm.kotlin.world.when is more flexible and more powerful as compared to Switch.
-Using **spm.kotlin.world.when** we can also compare more than one condition in one case
-  
-Instead of switch case we use spm.kotlin.world.when clause in kotlin. When is more powerful and dynamic in nature as compared to switch. We can declare multiple conditions in one case. The syntax is as follows
-  
-spm.kotlin.world.when(value){
-
+## WHEN  
+- When replace the switch statement of java. Now spm.kotlin.world.when is more flexible and more powerful as compared to Switch.
+- Using **when** we can also compare more than one condition in one case
+- Instead of switch case we use spm.kotlin.world.when clause in kotlin. When is more powerful and dynamic in nature as compared to switch. We can declare multiple conditions in one case. The syntax is as follows
+```  
+when(value){
 case 1 ->{
 }
 case 2->{
 }
 else{
 // this is nothing but the default condition in switch case
-}}  
-Example  
-  
-spm.kotlin.world.when(a){
-
+}} 
+```
+- Example  
+```
+when(a){
 in 1..10 ->{
 print(" $a is in the range 1 to 10")
 }
@@ -252,105 +283,110 @@ else {
 print(" none of the above condition")
 }
 }  
-  
-One more example with return type.  
-  
+```  
+- One more example with return type.  
+```
 fun describe(obj: Any): String =  
-    spm.kotlin.world.when (obj) {
+    when (obj) {
         1          -> "One"  
         "Hello"    -> "Greeting"  
         is Long    -> "Long"  
         !is String -> "Not a string"  
         else       -> "Unknown"  
     }  
-      
-this spm.kotlin.world.when clause will return a string.
+```      
+- this spm.kotlin.world.when clause will return a string.
   
-  **For Example**  
-spm.kotlin.world.when (x) {
+## For Example 
+- 
+```
+when (x) {
     1 -> print("x == 1")  
     2 -> print("x == 2")  
     else -> { // Note the block  
         print("x is neither 1 nor 2")  
     }  
-}  
-   
-spm.kotlin.world.when (x) {
+}
+   when (x) {
     0, 1 -> print("x == 0 or x == 1")  
     else -> print("otherwise")  
 }    
-  
-We can use arbitrary expressions (not only constants) as branch conditions  
-  
-spm.kotlin.world.when (x) {
+```  
+- We can use arbitrary expressions (not only constants) as branch conditions  
+```
+when (x) {
     parseInt(s) -> print("s encodes x")  
     else -> print("s does not encode x")  
 }    
-  
-We can also check a value for being in or !in a range or a collection:  
-
-
-spm.kotlin.world.when (x) {
+```  
+- We can also check a value for being in or !in a range or a collection:  
+```
+when (x) {
     in 1..10 -> print("x is in the range")
     in validNumbers -> print("x is valid")
     !in 10..20 -> print("x is outside the range")
     else -> print("none of the above")
 }
-   
-## **For Loops**  
-for loop iterates through anything that provides an iterator. This is equivalent to the foreach loop in languages like C#. The syntax is as follows:    
-
-for (item in collection) print(item)  
-The body can be a block.  
-
+```   
+## For Loops 
+- for loop iterates through anything that provides an iterator. This is equivalent to the foreach loop in languages like C#. The syntax is as follows:    
+- ```for (item in collection) print(item)``` 
+- The body can be a block. 
+```
 for (item: Int in ints) {  
     // ...  
 }  
-  
-    
+```  
+- You can use range operator    
+```
 for (i in 1..3) {  
     println(i)  
-}  
+} 
+```
+- You can use reverse and step as well
+```
 for (i in 6 downTo 0 step 2) {  
     println(i)  
-}  
-  
+}   
   
 //sampleStart  
 for (i in array.indices) {  
     println(array[i])  
-}    
-  
+} 
+```
+- You can iterate index and value of a array
+```
 val array = arrayOf("a", "b", "c")  
 //sampleStart  
 for ((index, value) in array.withIndex()) {  
     println("the element at $index is $value")  
 }  
-  
-## **Return And Jumps**   
-eturn. By default returns from the nearest enclosing spm.kotlin.world.function or anonymous spm.kotlin.world.function.
-break. Terminates the nearest enclosing loop.  
-continue. Proceeds to the next step of the nearest enclosing loop.  
+```  
+## Return And Jumps
+- **return** By default returns from the nearest enclosing spm.kotlin.world.function or anonymous function.
+- **break** Terminates the nearest enclosing loop.  
+- **continue** Proceeds to the next step of the nearest enclosing loop.  
 
-## **Break and Continue Labels**  
-  
+## Break and Continue Labels
+```  
 loop@ for (i in 1..100) {  
     for (j in 1..100) {  
         if (...) break@loop  
     }  
 }    
-  
-//sampleStart  
+```  
+- Labeled break 
+```
 fun foo() {  
     listOf(1, 2, 3, 4, 5).forEach lit@{  
         if (it == 3) return@lit // local return to the caller of the lambda, i.e. the forEach loop  
         print(it)  
     }  
     print(" done with explicit label")  
-}  
-//sampleEnd   
+} 
+```   
   
-## **Classes and Objects**  
+## Classes and Objects
 A class in Kotlin can have a primary constructor and one or more secondary constructors. The primary constructor is part of the class header: it goes after the class name (and optional type parameters).  
   
 class Person constructor(firstName: String) {  

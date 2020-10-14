@@ -36,7 +36,8 @@
   
 ## Definition of Coroutines:  
 - A framework to manage concurrency in a more performant and simple way with its lightweight thread which is written on top of the actual threading framework to get the most out of it by taking the advantage of cooperative nature of functions.  
-  
+- kotlinx.coroutines is a rich library for coroutines developed by JetBrains. It contains a number of high-level coroutine-enabled primitives that this guide covers, including launch, async and others.
+- https://kotlinlang.org/docs/reference/coroutines/basics.html
 ## Where we can use Coroutines
 - Lets take a simple example where we can  
   - 1.Fetch User from the server.  

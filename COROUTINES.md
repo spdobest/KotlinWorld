@@ -46,6 +46,45 @@
   - 1. Call Back  
   - 2. Rx Java  
   - 3. Coroutines  
+## Basics Of Coroutines
+- coroutines are light-weight threads
+- Thread is controlled by OS but coroutines controlled by user.
+- They are launched with launch coroutine builder in a context of some CoroutineScope.
+- **GlobalScope.launch {}** we are launching a new coroutine in the GlobalScope, meaning that the lifetime of the new coroutine is limited only by the lifetime of the whole application.
+- **NOTE** Suspend functions are only allowed to be called from a coroutine or another suspend function
+```
+fun main() {
+    GlobalScope.launch { // launch a new coroutine in background and continue
+        delay(1000L) // non-blocking delay for 1 second (default time unit is ms)
+        println("World!") // print after delay
+    }
+    println("Hello,") // main thread continues while coroutine is delayed
+    Thread.sleep(2000L) // block main thread for 2 seconds to keep JVM alive
+}
+```
+- GlobalScope.launch{} - This code inside thes bracket run after 1 second, its non blocking thread
+```
+fun main() { 
+    GlobalScope.launch { // launch a new coroutine in background and continue
+        delay(1000L)
+        println("World!")
+    }
+    println("Hello,") // main thread continues here immediately
+    runBlocking {     // but this expression blocks the main thread
+        delay(5000L)  // ... while we delay for 2 seconds to keep JVM alive
+    }
+    print("Siba")
+}
+```
+- **runBlocking** is block the execution for 5 seconds above, after 5 second, siba will print in the above code snippet.
+- **GlobalScope.launch** is used to create coroutines in background
+```
+GlobalScope.launch { // launch a new coroutine in background and continue
+        delay(1000L)
+        println("World!")
+    }
+```
+- 
 ```
   suspend fun fetchAndShowUser() {  
      val user = fetchUser() // fetch on IO thread  

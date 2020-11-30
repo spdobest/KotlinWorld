@@ -39,61 +39,60 @@ Kotlin implements stackless coroutines — it’s mean that the coroutines don�
 ## Definition of Coroutines:  
 A framework to manage concurrency in a more performant and simple way with its lightweight thread which is written on top of the actual threading framework to get the most out of it by taking the advantage of cooperative nature of functions.  
   
-**Where we can use Coroutines**  
-Lets take a simple example where we can  
+## Where we can use Coroutines**  
+- Lets take a simple example where we can  
 1.Fetch User from the server.  
 2.Show the User in the UI.  
   
-When we will do any N/W operation in main thread it will show exception network on main thread. To avoid that we can use use the below solutions  
+- When we will do any N/W operation in main thread it will show exception network on main thread. To avoid that we can use use the below solutions  
 1. Call Back  
 2. Rx Java  
 3. Coroutines  
-  
+```  
   suspend fun fetchAndShowUser() {  
      val user = fetchUser() // fetch on IO thread  
      showUser(user) // back on UI thread  
 }  
+```
   
-Here, the above code looks synchronous, but it is asynchronous. We will see how is it possible.   
-  
-How to implement coroutines  
-  
+- Here, the above code looks synchronous, but it is asynchronous. We will see how is it possible.   
+## How to implement coroutines  
+```
 dependencies {  
   implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:x.x.x"  
   implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:x.x.x"  
 }    
-  
-Now, our function fecthUser will look like below:  
-  
+```  
+- Now, our function fecthUser will look like below:  
+```
 suspend fun fetchUser(): User {  
     return GlobalScope.async(Dispatchers.IO) {  
         // make network call  
         // return user  
     }.await()  
 }     
-  
-**The main keywords in Coroutines are**  
-  
+```  
+## The main keywords in Coroutines are
+- **Suspending functions:** 
+  - This kind of function can be suspended without blocking the current thread. Instead of returning a simple value, it also knows in which context the caller suspended it. Using this, it can resume appropriately, when ready.  
+- **CoroutineBuilders:** 
+  - These take a suspending lambda as an argument to create a coroutine. There are a bunch of coroutine builders provided by Kotlin Coroutines, including async(), launch(), runBlocking.  
+- **CoroutineScope:** 
+  - Helps to define the lifecycle of Kotlin Coroutines. It can be application-wide or bound to a component like the Android Activity. You have to use a scope to start a coroutine.  
+- **CoroutineDispatcher:** 
+  - Defines thread pools to launch your Kotlin Coroutines in. This could be the background thread pool, main thread or even your custom thread pool. You’ll use this to switch between, and return results from, threads. 
 
-**Suspending functions:** This kind of function can be suspended without blocking the current thread. Instead of returning a simple value, it also knows in which context the caller suspended it. Using this, it can resume appropriately, when ready.  
-**CoroutineBuilders:** These take a suspending lambda as an argument to create a coroutine. There are a bunch of coroutine builders provided by Kotlin Coroutines, including async(), launch(), runBlocking.  
-**CoroutineScope:** Helps to define the lifecycle of Kotlin Coroutines. It can be application-wide or bound to a component like the Android Activity. You have to use a scope to start a coroutine.  
-**CoroutineDispatcher:** Defines thread pools to launch your Kotlin Coroutines in. This could be the background thread pool, main thread or even your custom thread pool. You’ll use this to switch between, and return results from, threads. 
-  
-**1.Suspend -** Suspend function is a function that could be started, paused and resume.    
-**2.GlobalScope -**  
-**3.async() -**  
-**4.launch() -**  
-**5.await -**  
-**6.Dispatchers -**  Dispatchers helps coroutines in deciding the thread on which the work has to be done. There are majorly three types of Dispatchers which are as **IO, Default, and Main**. IO dispatcher is used to do the network and disk related work. Default is used to do the CPU intensive work. Main is the UI thread of Android. In order to use these, we need to wrap the work under the async function. Async function looks like below.  
-**7.Scopes -**  it us used to cancel the background task as soon as the activity got destroyed.  
-**8.withContext() -** withContext is nothing but an another way writing the async where we do not have to write await().  
-  
+- **1.Suspend -** Suspend function is a function that could be started, paused and resume.    
+- **2.GlobalScope -**  
+- **3.async() -**  
+- **4.launch() -**  
+- **5.await -**  
+- **6.Dispatchers -**  Dispatchers helps coroutines in deciding the thread on which the work has to be done. There are majorly three types of Dispatchers which are as **IO, Default, and Main**. IO dispatcher is used to do the network and disk related work. Default is used to do the CPU intensive work. Main is the UI thread of Android. In order to use these, we need to wrap the work under the async function. Async function looks like below.  
+- **7.Scopes -**  it us used to cancel the background task as soon as the activity got destroyed.  
+- **8.withContext() -** withContext is nothing but an another way writing the async where we do not have to write await().  
 ##  Using Dispatchers With Kotlin Coroutines
-  
-You can execute a coroutine using different CoroutineDispatchers, as mentioned before. Some of the available   CoroutineDispatchers in the API are: Dispatchers.Main, Dispatchers.IO and Dispatchers.Default.  
-  
-You can use these dispatchers for the following use cases:  
+- You can execute a coroutine using different CoroutineDispatchers, as mentioned before. Some of the available   CoroutineDispatchers in the API are: Dispatchers.Main, Dispatchers.IO and Dispatchers.Default.  
+- You can use these dispatchers for the following use cases:  
   
 **Dispatchers.Default:** CPU-intensive work, such as sorting large lists, doing complex calculations and similar. A shared pool of threads on the JVM backs it.  
 **Dispatchers.IO:** networking or reading and writing from files. In short – any input and output, as the name states  

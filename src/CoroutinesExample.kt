@@ -1,3 +1,7 @@
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.delay
+import kotlinx.coroutines.launch
+
 class CoroutinesExample {
 
     fun main() {

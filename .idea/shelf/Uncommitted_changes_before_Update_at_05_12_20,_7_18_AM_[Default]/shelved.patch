@@ -1,0 +1,425 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"ea6fc53a-d8f5-451c-97f4-df99580dec14\" name=\"Default\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/src/sealedClass/Fruit.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/out/production/Workspace/META-INF/Workspace.kotlin_module\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/Workspace/META-INF/Workspace.kotlin_module\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2$User.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2$User.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2.class\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/out/production/Workspace/basic/NullPointerExample.class\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/out/production/Workspace/basic/NullPointerExample.class\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Kotlin Object\" />\n        <option value=\"Kotlin Class\" />\n        <option value=\"FxmlFile\" />\n        <option value=\"Kotlin File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1VhfiDwoOECXPmTeeRabKkge80Y\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showExcludedFiles\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\n    <property name=\"com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp\" value=\"1544790725473\" />\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.keymap\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY\">\n      <recent name=\"hiigherOrderFUnction\" />\n      <recent name=\"opetorExample\" />\n      <recent name=\"collections\" />\n    </key>\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n      <recent name=\"$PROJECT_DIR$/src\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Kotlin.sealedClass.FruitKt\">\n    <configuration default=\"true\" type=\"Applet\" factoryName=\"Applet\">\n      <option name=\"POLICY_FILE\" value=\"$APPLICATION_HOME_DIR$/bin/appletviewer.policy\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"Application\" factoryName=\"Application\">\n      <option name=\"WORKING_DIRECTORY\" value=\"$PROJECT_DIR$\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"JUnit\" factoryName=\"JUnit\">\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"%MODULE_WORKING_DIR%\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"basic.MyBasic2\" type=\"JetRunConfigurationType\" factoryName=\"Kotlin\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Workspace\" />\n      <option name=\"VM_PARAMETERS\" />\n      <option name=\"PROGRAM_PARAMETERS\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"basic.MyBasic2\" />\n      <option name=\"WORKING_DIRECTORY\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"delegatesInKotlin.MainUseOfDelegateKt\" type=\"JetRunConfigurationType\" factoryName=\"Kotlin\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Workspace\" />\n      <option name=\"VM_PARAMETERS\" />\n      <option name=\"PROGRAM_PARAMETERS\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"delegatesInKotlin.MainUseOfDelegateKt\" />\n      <option name=\"WORKING_DIRECTORY\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"opetorExample.OperatorMain\" type=\"JetRunConfigurationType\" factoryName=\"Kotlin\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Workspace\" />\n      <option name=\"VM_PARAMETERS\" />\n      <option name=\"PROGRAM_PARAMETERS\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"opetorExample.OperatorMain\" />\n      <option name=\"WORKING_DIRECTORY\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"sealedClass.FruitKt\" type=\"JetRunConfigurationType\" factoryName=\"Kotlin\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Workspace\" />\n      <option name=\"VM_PARAMETERS\" />\n      <option name=\"PROGRAM_PARAMETERS\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"sealedClass.FruitKt\" />\n      <option name=\"WORKING_DIRECTORY\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"useOfAllOperator.UseOfOperatorExampleKt\" type=\"JetRunConfigurationType\" factoryName=\"Kotlin\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"Workspace\" />\n      <option name=\"VM_PARAMETERS\" />\n      <option name=\"PROGRAM_PARAMETERS\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"useOfAllOperator.UseOfOperatorExampleKt\" />\n      <option name=\"WORKING_DIRECTORY\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"TestNG\">\n      <option name=\"TEST_OBJECT\" value=\"CLASS\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"%MODULE_WORKING_DIR%\" />\n      <properties />\n      <listeners />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"#org.jetbrains.idea.devkit.run.PluginConfigurationType\">\n      <module name=\"\" />\n      <option name=\"VM_PARAMETERS\" value=\"-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea\" />\n      <option name=\"PROGRAM_PARAMETERS\" />\n      <predefined_log_file enabled=\"true\" id=\"idea.log\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <list>\n      <item itemvalue=\"Kotlin.basic.MyBasic2\" />\n      <item itemvalue=\"Kotlin.delegatesInKotlin.MainUseOfDelegateKt\" />\n      <item itemvalue=\"Kotlin.opetorExample.OperatorMain\" />\n      <item itemvalue=\"Kotlin.useOfAllOperator.UseOfOperatorExampleKt\" />\n      <item itemvalue=\"Kotlin.sealedClass.FruitKt\" />\n    </list>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Kotlin.sealedClass.FruitKt\" />\n        <item itemvalue=\"Kotlin.basic.MyBasic2\" />\n        <item itemvalue=\"Kotlin.opetorExample.OperatorMain\" />\n        <item itemvalue=\"Kotlin.useOfAllOperator.UseOfOperatorExampleKt\" />\n        <item itemvalue=\"Kotlin.delegatesInKotlin.MainUseOfDelegateKt\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"ServiceViewManager\">\n    <option name=\"viewStates\">\n      <list>\n        <serviceView>\n          <treeState>\n            <expand />\n            <select />\n          </treeState>\n        </serviceView>\n      </list>\n    </option>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"ea6fc53a-d8f5-451c-97f4-df99580dec14\" name=\"Default\" comment=\"\" />\n      <created>1533794490924</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1533794490924</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"First Commit\">\n      <created>1533828421785</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1533828421785</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"First Commit\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"First Commit\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"565\" y=\"338\" key=\"#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog\" timestamp=\"1586306495664\">\n      <screen x=\"0\" y=\"23\" width=\"1440\" height=\"808\" />\n    </state>\n    <state x=\"565\" y=\"338\" key=\"#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.808@0.23.1440.808\" timestamp=\"1586306495664\" />\n    <state width=\"1870\" height=\"311\" key=\"GridCell.Tab.0.bottom\" timestamp=\"1578566443045\">\n      <screen x=\"0\" y=\"23\" width=\"1920\" height=\"977\" />\n    </state>\n    <state width=\"1870\" height=\"311\" key=\"GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977\" timestamp=\"1578566443045\" />\n    <state width=\"1870\" height=\"311\" key=\"GridCell.Tab.0.center\" timestamp=\"1578566443044\">\n      <screen x=\"0\" y=\"23\" width=\"1920\" height=\"977\" />\n    </state>\n    <state width=\"1870\" height=\"311\" key=\"GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977\" timestamp=\"1578566443044\" />\n    <state width=\"1870\" height=\"311\" key=\"GridCell.Tab.0.left\" timestamp=\"1578566443044\">\n      <screen x=\"0\" y=\"23\" width=\"1920\" height=\"977\" />\n    </state>\n    <state width=\"1870\" height=\"311\" key=\"GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977\" timestamp=\"1578566443044\" />\n    <state width=\"1870\" height=\"311\" key=\"GridCell.Tab.0.right\" timestamp=\"1578566443045\">\n      <screen x=\"0\" y=\"23\" width=\"1920\" height=\"977\" />\n    </state>\n    <state width=\"1870\" height=\"311\" key=\"GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977\" timestamp=\"1578566443045\" />\n    <state x=\"469\" y=\"152\" key=\"SettingsEditor\" timestamp=\"1578566606198\">\n      <screen x=\"0\" y=\"23\" width=\"1920\" height=\"977\" />\n    </state>\n    <state x=\"469\" y=\"152\" key=\"SettingsEditor/0.23.1920.977@0.23.1920.977\" timestamp=\"1578566606198\" />\n    <state x=\"636\" y=\"346\" key=\"com.intellij.ide.util.TipDialog\" timestamp=\"1578565307593\">\n      <screen x=\"0\" y=\"23\" width=\"1920\" height=\"977\" />\n    </state>\n    <state x=\"636\" y=\"346\" key=\"com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977\" timestamp=\"1578565307593\" />\n  </component>\n  <component name=\"antWorkspaceConfiguration\">\n    <option name=\"IS_AUTOSCROLL_TO_SOURCE\" value=\"false\" />\n    <option name=\"FILTER_TARGETS\" value=\"false\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 9546c2e1acf892b35b0582b3d759dcd75933bb8c)
++++ .idea/workspace.xml	(date 1607152573406)
+@@ -2,12 +2,116 @@
+ <project version="4">
+   <component name="ChangeListManager">
+     <list default="true" id="ea6fc53a-d8f5-451c-97f4-df99580dec14" name="Default" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/sealedClass/Fruit.kt" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_3.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_core_1_4_2.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Workspace.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Workspace.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Basics$filterExample$$inlined$sortedBy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/Basics$filterExample$$inlined$sortedBy$1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Basics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/Basics.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/Hello.class" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/out/production/Workspace/META-INF/Workspace.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/META-INF/Workspace.kotlin_module" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic1$s1$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic1$s1$2.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic1.class" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2$User.class" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2.class" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/NullPointerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/basic/NullPointerExample.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basics/KotlinDatatype$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/basics/KotlinDatatype$main$1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basics/KotlinDatatype.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/basics/KotlinDatatype.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basics/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/basics/Person.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/collections/ColectionMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/collections/ColectionMain.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/collections/ListOperationMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/collections/ListOperationMain.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/collections/MapOperationMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/collections/MapOperationMain.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/collections/SetOperationMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/collections/SetOperationMain.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/controlFlow/IfElse1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/controlFlow/IfElse1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/BirdInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/BirdInterface.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/Cockoo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/Cockoo.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/Eagle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/Eagle.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/MainUseOfDelegateKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/MainUseOfDelegateKt.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/doWhile/DowhileLoop.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/doWhile/DowhileLoop.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/doWhile/WhileMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/doWhile/WhileMain.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType$GOLD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType$GOLD.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType$PLATINUM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType$PLATINUM.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType$SILVER.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType$SILVER.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/DayOfWeek.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/enumExample/DayOfWeek.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/enumExample/Direction.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/EnumClass1Kt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/enumExample/EnumClass1Kt.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/ICardLimit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/enumExample/ICardLimit.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/extensionFunction/ExtFUnctionExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/extensionFunction/ExtFUnctionExample.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/extensionFunction/ExtensionFunExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/extensionFunction/ExtensionFunExampleKt.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/extensionFunction/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/extensionFunction/Student.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/forLoop/For.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/forLoop/For.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/forLoop/ForMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/forLoop/ForMain.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/function/Function1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/function/Function1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/function/FunctionMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/function/FunctionMain.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/Execute.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/Execute.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$2.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$3.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$4.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$5.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda$1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda2$1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda3$1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda4$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda4$1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/Program.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/input.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/input.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/nullpointer_handling/NullPointerMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/nullpointer_handling/NullPointerMain.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/MyObject1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/MyObject1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/abstractClass/MyAbstractClassMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/abstractClass/MyAbstractClassMain1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/DontCreateMe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/DontCreateMe.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/InitOrderDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/InitOrderDemo.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/Person.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/Person1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/Person1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/dataClss/MyDataClassMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/dataClss/MyDataClassMain1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/delegate/My7DelegateMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/delegate/My7DelegateMain1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Bar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Bar.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Base.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Derived.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Derived.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Foo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Foo.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/MyInheritanceMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/MyInheritanceMain1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/interfc/MyInterfaceMain1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/interfc/MyInterfaceMain1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/Const.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/Const.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/Expr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/Expr.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/NotANumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/NotANumber.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/Sum.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/UseOfSealedMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/UseOfSealedMain.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/opetorExample/OperatorMain$useOfLazy$lazyValue$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/opetorExample/OperatorMain$useOfLazy$lazyValue$2.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/opetorExample/OperatorMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/opetorExample/OperatorMain.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/opetorExample/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/opetorExample/Person.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/BreakExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/BreakExample.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/ContinueExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/ContinueExample.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/ReturnExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/ReturnExample.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/ReturnJumpMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/ReturnJumpMain.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/sealedClass/Fruit$Apple.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/sealedClass/Fruit$Apple.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/sealedClass/Fruit$Orange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/sealedClass/Fruit$Orange.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/sealedClass/Fruit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/sealedClass/Fruit.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/sealedClass/FruitKt$main$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/sealedClass/FruitKt$main$1$1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/sealedClass/FruitKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/sealedClass/FruitKt.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/tailrecFunction/TailRecFunctionExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/tailrecFunction/TailRecFunctionExampleKt.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/useOfAllOperator/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/useOfAllOperator/Person.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/useOfAllOperator/UseOfOperatorExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/useOfAllOperator/UseOfOperatorExampleKt.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/useOfLazy/LazyExampleKt$main$pi$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/useOfLazy/LazyExampleKt$main$pi$2.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/useOfLazy/LazyExampleKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/useOfLazy/LazyExampleKt.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/when/When1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/when/When1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/when/WhenMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/when/WhenMain.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/whileLoop/WhileLoop1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/whileLoop/WhileLoop1.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/out/production/Workspace/whileLoop/WhileMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/whileLoop/WhileMain.class" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/.idea/src.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/CoroutineBasics.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoroutineBasics.kt" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/CoroutinesExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoroutinesExample.kt" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -31,14 +135,23 @@
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showExcludedFiles" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent">
++    <property name="Downloaded.Files.Path.Enabled" value="true" />
++    <property name="Repository.Attach.Annotations" value="false" />
++    <property name="Repository.Attach.JavaDocs" value="false" />
++    <property name="Repository.Attach.Sources" value="false" />
++    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="aspect.path.notification.shown" value="true" />
+     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544790725473" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
++    <property name="project.structure.last.edited" value="Modules" />
++    <property name="project.structure.proportion" value="0.15" />
++    <property name="project.structure.side.proportion" value="0.2" />
+     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+   </component>
+   <component name="RecentsManager">
+@@ -72,7 +185,7 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="basic.MyBasic2" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
++    <configuration name="basic.MyBasic2" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+       <module name="Workspace" />
+       <option name="VM_PARAMETERS" />
+       <option name="PROGRAM_PARAMETERS" />
+@@ -85,7 +198,7 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="delegatesInKotlin.MainUseOfDelegateKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
++    <configuration name="delegatesInKotlin.MainUseOfDelegateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+       <module name="Workspace" />
+       <option name="VM_PARAMETERS" />
+       <option name="PROGRAM_PARAMETERS" />
+@@ -98,7 +211,7 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="opetorExample.OperatorMain" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
++    <configuration name="opetorExample.OperatorMain" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+       <module name="Workspace" />
+       <option name="VM_PARAMETERS" />
+       <option name="PROGRAM_PARAMETERS" />
+@@ -111,7 +224,7 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="sealedClass.FruitKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
++    <configuration name="sealedClass.FruitKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+       <module name="Workspace" />
+       <option name="VM_PARAMETERS" />
+       <option name="PROGRAM_PARAMETERS" />
+@@ -124,7 +237,7 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="useOfAllOperator.UseOfOperatorExampleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
++    <configuration name="useOfAllOperator.UseOfOperatorExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+       <module name="Workspace" />
+       <option name="VM_PARAMETERS" />
+       <option name="PROGRAM_PARAMETERS" />
+@@ -159,8 +272,8 @@
+       <item itemvalue="Kotlin.basic.MyBasic2" />
+       <item itemvalue="Kotlin.delegatesInKotlin.MainUseOfDelegateKt" />
+       <item itemvalue="Kotlin.opetorExample.OperatorMain" />
+-      <item itemvalue="Kotlin.useOfAllOperator.UseOfOperatorExampleKt" />
+       <item itemvalue="Kotlin.sealedClass.FruitKt" />
++      <item itemvalue="Kotlin.useOfAllOperator.UseOfOperatorExampleKt" />
+     </list>
+     <recent_temporary>
+       <list>
+@@ -172,18 +285,7 @@
+       </list>
+     </recent_temporary>
+   </component>
+-  <component name="ServiceViewManager">
+-    <option name="viewStates">
+-      <list>
+-        <serviceView>
+-          <treeState>
+-            <expand />
+-            <select />
+-          </treeState>
+-        </serviceView>
+-      </list>
+-    </option>
+-  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="SvnConfiguration">
+     <configuration />
+   </component>
+@@ -210,34 +312,22 @@
+     <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state x="565" y="338" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1586306495664">
+-      <screen x="0" y="23" width="1440" height="808" />
+-    </state>
+-    <state x="565" y="338" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.808@0.23.1440.808" timestamp="1586306495664" />
+-    <state width="1870" height="311" key="GridCell.Tab.0.bottom" timestamp="1578566443045">
+-      <screen x="0" y="23" width="1920" height="977" />
+-    </state>
+-    <state width="1870" height="311" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1578566443045" />
+-    <state width="1870" height="311" key="GridCell.Tab.0.center" timestamp="1578566443044">
+-      <screen x="0" y="23" width="1920" height="977" />
++    <state x="438" y="57" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1606779105274">
++      <screen x="0" y="25" width="1280" height="689" />
+     </state>
+-    <state width="1870" height="311" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1578566443044" />
+-    <state width="1870" height="311" key="GridCell.Tab.0.left" timestamp="1578566443044">
+-      <screen x="0" y="23" width="1920" height="977" />
++    <state x="438" y="57" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.25.1280.689@0.25.1280.689" timestamp="1606779105274" />
++    <state x="378" y="128" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1606779147214">
++      <screen x="0" y="25" width="1280" height="689" />
+     </state>
+-    <state width="1870" height="311" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1578566443044" />
+-    <state width="1870" height="311" key="GridCell.Tab.0.right" timestamp="1578566443045">
+-      <screen x="0" y="23" width="1920" height="977" />
++    <state x="378" y="128" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.25.1280.689@0.25.1280.689" timestamp="1606779147214" />
++    <state x="128" y="25" key="SettingsEditor" timestamp="1606779150377">
++      <screen x="0" y="25" width="1280" height="689" />
+     </state>
+-    <state width="1870" height="311" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1578566443045" />
+-    <state x="469" y="152" key="SettingsEditor" timestamp="1578566606198">
+-      <screen x="0" y="23" width="1920" height="977" />
++    <state x="128" y="25" key="SettingsEditor/0.25.1280.689@0.25.1280.689" timestamp="1606779150377" />
++    <state x="353" y="266" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606779101623">
++      <screen x="0" y="25" width="1280" height="689" />
+     </state>
+-    <state x="469" y="152" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1578566606198" />
+-    <state x="636" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1578565307593">
+-      <screen x="0" y="23" width="1920" height="977" />
+-    </state>
+-    <state x="636" y="346" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1578565307593" />
++    <state x="353" y="266" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.25.1280.689@0.25.1280.689" timestamp="1606779101623" />
+   </component>
+   <component name="antWorkspaceConfiguration">
+     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_8\" default=\"true\" project-jdk-name=\"1.8.0_241\" project-jdk-type=\"JavaSDK\">\n    <output url=\"file://$PROJECT_DIR$/out\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision 9546c2e1acf892b35b0582b3d759dcd75933bb8c)
++++ .idea/misc.xml	(date 1606778754898)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8.0_241" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"095547c9-be46-42ce-904c-141833b3ab40\" name=\"Default Changelist\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/CoroutineBasics.kt\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/CoroutinesExample.kt\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/CoroutinesExample.kt\" afterDir=\"false\" />\n    </list>\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"DefaultGradleProjectSettings\">\n    <option name=\"isMigrated\" value=\"true\" />\n  </component>\n  <component name=\"FileEditorManager\">\n    <leaf>\n      <file pinned=\"false\" current-in-tab=\"false\">\n        <entry file=\"file://$PROJECT_DIR$/CoroutineBasics.kt\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"30\">\n              <caret line=\"2\" selection-start-line=\"2\" selection-end-line=\"9\" selection-end-column=\"1\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n      <file pinned=\"false\" current-in-tab=\"true\">\n        <entry file=\"file://$PROJECT_DIR$/CoroutinesExample.kt\">\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\n            <state relative-caret-position=\"150\">\n              <caret line=\"10\" column=\"1\" selection-start-line=\"10\" selection-start-column=\"1\" selection-end-line=\"10\" selection-end-column=\"1\" />\n            </state>\n          </provider>\n        </entry>\n      </file>\n    </leaf>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\n  </component>\n  <component name=\"IdeDocumentHistory\">\n    <option name=\"CHANGED_PATHS\">\n      <list>\n        <option value=\"$PROJECT_DIR$/CoroutineBasics.kt\" />\n        <option value=\"$PROJECT_DIR$/CoroutinesExample.kt\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"ProjectConfigurationFiles\">\n    <option name=\"files\">\n      <list>\n        <option value=\"$PROJECT_DIR$/.idea/src.iml\" />\n        <option value=\"$PROJECT_DIR$/.idea/vcs.xml\" />\n        <option value=\"$PROJECT_DIR$/.idea/modules.xml\" />\n        <option value=\"$PROJECT_DIR$/.idea/misc.xml\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"ProjectFrameBounds\">\n    <option name=\"y\" value=\"23\" />\n    <option name=\"width\" value=\"1280\" />\n    <option name=\"height\" value=\"700\" />\n  </component>\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectView\">\n    <navigator proportions=\"\" version=\"1\">\n      <foldersAlwaysOnTop value=\"true\" />\n    </navigator>\n    <panes>\n      <pane id=\"PackagesPane\" />\n      <pane id=\"ProjectPane\" />\n      <pane id=\"Scope\" />\n    </panes>\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\n    <property name=\"project.structure.last.edited\" value=\"Project\" />\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\n    <property name=\"project.structure.side.proportion\" value=\"0.2\" />\n  </component>\n  <component name=\"RunDashboard\">\n    <option name=\"ruleStates\">\n      <list>\n        <RuleState>\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\n        </RuleState>\n        <RuleState>\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\n        </RuleState>\n      </list>\n    </option>\n  </component>\n  <component name=\"RunManager\">\n    <configuration name=\"Unnamed\" type=\"JetRunConfigurationType\" nameIsGenerated=\"true\">\n      <module name=\"src\" />\n      <option name=\"VM_PARAMETERS\" value=\"\" />\n      <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\n      <option name=\"ALTERNATIVE_JRE_PATH_ENABLED\" value=\"false\" />\n      <option name=\"ALTERNATIVE_JRE_PATH\" />\n      <option name=\"PASS_PARENT_ENVS\" value=\"true\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"\" />\n      <option name=\"WORKING_DIRECTORY\" value=\"\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n  </component>\n  <component name=\"SvnConfiguration\">\n    <configuration />\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"095547c9-be46-42ce-904c-141833b3ab40\" name=\"Default Changelist\" comment=\"\" />\n      <created>1602761468735</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1602761468735</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"ToolWindowManager\">\n    <frame x=\"0\" y=\"23\" width=\"1280\" height=\"700\" extended-state=\"0\" />\n    <editor active=\"true\" />\n    <layout>\n      <window_info id=\"Image Layers\" />\n      <window_info id=\"Designer\" />\n      <window_info id=\"UI Designer\" />\n      <window_info id=\"Capture Tool\" />\n      <window_info id=\"Favorites\" side_tool=\"true\" />\n      <window_info active=\"true\" content_ui=\"combo\" id=\"Project\" order=\"0\" visible=\"true\" weight=\"0.24959612\" />\n      <window_info id=\"Structure\" order=\"1\" side_tool=\"true\" weight=\"0.25\" />\n      <window_info anchor=\"bottom\" id=\"Version Control\" />\n      <window_info anchor=\"bottom\" id=\"Terminal\" />\n      <window_info anchor=\"bottom\" id=\"Event Log\" side_tool=\"true\" />\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"0\" />\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"1\" />\n      <window_info anchor=\"bottom\" id=\"Run\" order=\"2\" />\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"3\" weight=\"0.4\" />\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"4\" weight=\"0.25\" />\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"5\" weight=\"0.4\" />\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"6\" />\n      <window_info anchor=\"right\" id=\"Palette\" />\n      <window_info anchor=\"right\" id=\"Theme Preview\" />\n      <window_info anchor=\"right\" id=\"Maven\" />\n      <window_info anchor=\"right\" id=\"Capture Analysis\" />\n      <window_info anchor=\"right\" id=\"Palette&#9;\" />\n      <window_info anchor=\"right\" id=\"Commander\" order=\"0\" weight=\"0.4\" />\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\n    </layout>\n  </component>\n  <component name=\"editorHistoryManager\">\n    <entry file=\"file://$PROJECT_DIR$/CoroutineBasics.kt\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"30\">\n          <caret line=\"2\" selection-start-line=\"2\" selection-end-line=\"9\" selection-end-column=\"1\" />\n        </state>\n      </provider>\n    </entry>\n    <entry file=\"file://$PROJECT_DIR$/CoroutinesExample.kt\">\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\n        <state relative-caret-position=\"150\">\n          <caret line=\"10\" column=\"1\" selection-start-line=\"10\" selection-start-column=\"1\" selection-end-line=\"10\" selection-end-column=\"1\" />\n        </state>\n      </provider>\n    </entry>\n  </component>\n  <component name=\"masterDetails\">\n    <states>\n      <state key=\"ArtifactsStructureConfigurable.UI\">\n        <settings>\n          <artifact-editor />\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"FacetStructureConfigurable.UI\">\n        <settings>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"GlobalLibrariesConfigurable.UI\">\n        <settings>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"JdkListConfigurable.UI\">\n        <settings>\n          <last-edited>Kotlin SDK</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"ModuleStructureConfigurable.UI\">\n        <settings>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"ProjectJDKs.UI\">\n        <settings>\n          <last-edited>1.8</last-edited>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n      <state key=\"ProjectLibrariesConfigurable.UI\">\n        <settings>\n          <splitter-proportions>\n            <option name=\"proportions\">\n              <list>\n                <option value=\"0.2\" />\n              </list>\n            </option>\n          </splitter-proportions>\n        </settings>\n      </state>\n    </states>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/.idea/workspace.xml	(revision 9546c2e1acf892b35b0582b3d759dcd75933bb8c)
++++ src/.idea/workspace.xml	(date 1603346985309)
+@@ -1,10 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="095547c9-be46-42ce-904c-141833b3ab40" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/CoroutineBasics.kt" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/CoroutinesExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/CoroutinesExample.kt" afterDir="false" />
+-    </list>
++    <list default="true" id="095547c9-be46-42ce-904c-141833b3ab40" name="Default Changelist" comment="" />
+     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -15,26 +12,7 @@
+     <option name="isMigrated" value="true" />
+   </component>
+   <component name="FileEditorManager">
+-    <leaf>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/CoroutineBasics.kt">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="30">
+-              <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="1" />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/CoroutinesExample.kt">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="150">
+-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-    </leaf>
++    <leaf />
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+@@ -74,6 +52,7 @@
+     </panes>
+   </component>
+   <component name="PropertiesComponent">
++    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="project.structure.last.edited" value="Project" />
+     <property name="project.structure.proportion" value="0.15" />
+@@ -121,7 +100,6 @@
+   </component>
+   <component name="ToolWindowManager">
+     <frame x="0" y="23" width="1280" height="700" extended-state="0" />
+-    <editor active="true" />
+     <layout>
+       <window_info id="Image Layers" />
+       <window_info id="Designer" />
+@@ -151,17 +129,17 @@
+     </layout>
+   </component>
+   <component name="editorHistoryManager">
+-    <entry file="file://$PROJECT_DIR$/CoroutineBasics.kt">
++    <entry file="file://$PROJECT_DIR$/CoroutinesExample.kt">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="30">
+-          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="1" />
++        <state relative-caret-position="150">
++          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/CoroutinesExample.kt">
++    <entry file="file://$PROJECT_DIR$/CoroutineBasics.kt">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="150">
+-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
++        <state relative-caret-position="30">
++          <caret line="2" selection-start-line="2" selection-end-line="9" selection-end-column="1" />
+         </state>
+       </provider>
+     </entry>
+Index: .idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_core_1_4_2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_core_1_4_2.xml	(date 1606778963124)
++++ .idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_core_1_4_2.xml	(date 1606778963124)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2" type="repository">
++    <properties maven-id="org.jetbrains.kotlinx:kotlinx-coroutines-core:1.4.2" />
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/lib/kotlinx-coroutines-core-1.4.2.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/kotlin-stdlib-1.4.0.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/annotations-13.0.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/kotlin-stdlib-common-1.4.0.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+Index: .idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_3.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_3.xml	(date 1606779111767)
++++ .idea/libraries/org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_3.xml	(date 1606779111767)
+@@ -0,0 +1,13 @@
++<component name="libraryTable">
++  <library name="org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3" type="repository">
++    <properties maven-id="org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.3" />
++    <CLASSES>
++      <root url="jar://$PROJECT_DIR$/lib/kotlinx-coroutines-core-1.3.3.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/kotlin-stdlib-1.3.61.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/annotations-13.0.jar!/" />
++      <root url="jar://$PROJECT_DIR$/lib/kotlin-stdlib-common-1.3.61.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file

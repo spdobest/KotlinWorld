@@ -52,5 +52,34 @@ fun main(args: Array<String>){
 - Constructors
 - Comments
 
+## Variable
+- var - Itmeans variable, the value can be change
+- val - This is immutable, the value can not be change
+- late init var - When you want to initialize the value later at the time of getting value
+- const val - is used when the value is fixed, its not depend of compiler to execute, 
+```
+const val AGE = 31;
+val ageOfPeron = getAge(1988)
 
- 
+fun getAge(year:Int) : Int {
+  return 2020-year
+}
+```
+- IN the above example the value of ageOfPerson depends at runtime and the value is constant.
+- But the value of AGE is always similar before compilation
+- **Lazy**
+- **lazy()** is a function that takes a lambda and returns an instance of Lazy<T> which can serve as a delegate for implementing a lazy property: the first call to get() executes the lambda passed to lazy() and remembers the result, subsequent calls to get() simply return the remembered result.
+```
+  val lazyValue: String by lazy {
+    println("computed!")
+    "Hello"
+}
+
+fun main() {
+    println(lazyValue)
+    println(lazyValue)
+}
+```  
+
+## Loop and control structure
+- 

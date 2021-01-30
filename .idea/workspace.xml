@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea6fc53a-d8f5-451c-97f4-df99580dec14" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ReadMe/images/javaKotlinCompiler.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ReadMe/1.introduction.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe/1.introduction.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

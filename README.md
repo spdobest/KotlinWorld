@@ -53,7 +53,16 @@ fun main(args:Array<String>){
 let a = 123
 let variable:Int = 123434
 ```
-
+## Difference between const and val
+- **consts** are compile time constants. Meaning that their value has to be assigned during compile time, unlike vals, where it can be done at runtime.
+- This means, that **consts** can never be assigned to a function or any class constructor, but only to a String or primitive.
+- const val are allowed only in top level or in objects
+- For example:
+```
+const val foo = complexFunctionCall()   //Not okay
+val fooVal = complexFunctionCall()  //Okay
+const val bar = "Hello world"           //Also okay
+```
 ## **? and !! operator**  
 - We can declare any variable using **?** and **!!** operator or without using any operator at all.   
 - **var a:String? ="abc"**, when we declare any variable with ? operator, this means , the variable can be null anytime. We use ? operator for null safety. We have to assign value to the variable we declare with ? and also have to define the datatype of the variable. Otherwise it will show compile time error.
@@ -385,7 +394,129 @@ fun foo() {
     print(" done with explicit label")  
 } 
 ```   
+## Function
+- In kotlin function is defined using **fun** keyword.
+```
+fun displayName(){
+    print("Hello Kotlin")
+} 
+```  
+- Function with return type
+```
+fun getName() : String ?{
+    return "Sibaprasad"
+} 
+``` 
+- We can convert the above function to single expression function
+```
+fun getName() = "Sibaprasad"
+```
+- In this case compiiler understands that this is a single expression function, and return type will be the type of the datatype that returns
+## Named Argument Function
+When calling a function, you can name one or more of its arguments. This may be helpful when a function has a large number of arguments, and it's difficult to associate a value with an argument, especially if it's a boolean or null value.
+```
+fun reformat(
+    str: String,
+    normalizeCase: Boolean = true,
+    upperCaseFirstLetter: Boolean = true,
+    divideByCamelHumps: Boolean = false,
+    wordSeparator: Char = ' ',
+) {
+/*...*/
+}
+While calling the function
+
+reformat(
+    'String!',
+    false,
+    upperCaseFirstLetter = false,
+    divideByCamelHumps = true,
+    '_'
+)
+```
+## Infix FUnction
+- Its a member function or extension function
+- It contain only one parameter
+- It will have prefix infix
+- All infix function are extension function but all extension function are not infix function.
+```
+// extension function
+fun Int.greaterValue(other:Int):Int{
+    if(this > other){
+        return this
+    }
+    else
+        return other
+}
+val x = 10
+val y = 20
+val greaterValue = x.greaterValue(y)
+```
+- THe abobe example is extension function, for this we need to pas the parameter to the function
+- Lets convert the above method to infix function. And see what are the benifits of infix function
+```
+// extension function
+infix fun Int.greaterValue(other:Int):Int{
+    if(this > other){
+        return this
+    }
+    else
+        return other
+}
+val x = 10
+val y = 20
+val greaterValue = x greaterValue y
+```
+- While calling an infix function, you don't need to pass parameters and you can use space instead.
+
+## Lambda expressions and Anonymous function
+- A function without name is called anonymous function. 
+- For lambda expression we can say that it is anonymous function. 
+- For more details Follow **https://www.geeksforgeeks.org/kotlin-lambdas-expressions-and-anonymous-functions/?ref=lbp**
+- Syntax
+```
+val lambda_name : Data_type = { argument_List -> code_body }
+example
+val sum = {a: Int , b: Int -> a + b}
+val sum:(Int,Int) -> Int = { a, b -> a + b}
+```
+- A lambda expression is always surrounded by curly braces, argument declarations go inside curly braces and have optional type annotations, the code_body goes after an arrow -> sign. If the inferred return type of the lambda is not Unit, then the last expression inside the lambda body is treated as return value.
+
+### Type inference in lambdas-
+- Kotlin’s type inference helps the compiler to evaluate the type of a lambda expression. Below is the lambda expression using which we can compute the sum of two integers.
+- val sum = {a: Int , b: Int -> a + b}
+- (Int,Int) -> String 
+- 
+```
+val lambda1: (Int) -> Int = (a -> a * a)
+val lambda2: (String,String) -> String = { a , b -> a + b }
+val lambda3: (Int)-> Unit = {print(Int)}
+```
+- Lambdas can be used as class extension:
+```
+val lambda4 : String.(Int) -> String = { this + it } 
   
+fun main(args: Array<String>) { 
+    val result = "Geeks".lambda4(50) 
+    print(result) 
+} 
+OUTPUT = Geeks50
+```
+## Anonymous Function
+- An anonymous function is very similar to regular function except for the name of the function which is omitted from the declaration. The body of the anonymous function can be either an expression or block.
+- Syntax
+```
+fun(a: Int, b: Int) : Int = a * b
+
+or
+
+fun(a: Int, b: Int): Int {
+    val mul = a * b
+    return mul
+}
+```
+## Kotlin Tail Recursion
+- 
 ## Classes and Objects
 A class in Kotlin can have a primary constructor and one or more secondary constructors. The primary constructor is part of the class header: it goes after the class name (and optional type parameters).  
   

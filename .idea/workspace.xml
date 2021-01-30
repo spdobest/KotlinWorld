@@ -2,12 +2,121 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea6fc53a-d8f5-451c-97f4-df99580dec14" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sealedClass/Fruit.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe/1.introduction.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe/2.basicsOFKotlin.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe/3.controlStrcture.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe/4.classesAndObjects.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe/5.functionsAndLambda.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe/6.collections.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ReadMe/7.coroutines.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/basic/ConstsVsVal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/function/AnonymousFunctionExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/function/DefaultArgumentFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/function/InfixFunctionExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/function/LambdaExpExample.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spm/kotlin/world/function/NamedArgumentFunction.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Basics$filterExample$$inlined$sortedBy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/Basics$filterExample$$inlined$sortedBy$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Basics.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/Basics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/Hello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/Hello.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Workspace/META-INF/Workspace.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/META-INF/Workspace.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2$User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/NullPointerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/basic/NullPointerExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/Basic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic1$s1$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2$User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/MyBasic2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basic/NullPointerExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basics/KotlinDatatype$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basics/KotlinDatatype.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basics/KotlinDatatypeKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/basics/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/collections/ColectionMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/collections/ListOperationMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/collections/MapOperationMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/collections/SetOperationMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/controlFlow/IfElse1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/BirdInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/Cockoo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/Eagle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/delegatesInKotlin/MainUseOfDelegateKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/doWhile/DowhileLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/doWhile/WhileMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType$GOLD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType$PLATINUM.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType$SILVER.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/CardType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/DayOfWeek.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/Direction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/EnumClass1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/enumExample/ICardLimit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/extensionFunction/ExtFUnctionExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/extensionFunction/ExtensionFunExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/extensionFunction/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/forLoop/For.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/forLoop/ForMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/function/Function1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/function/FunctionExample1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/function/FunctionMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/Execute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda2$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt$main$myLambda4$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/HighOrderFunExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/hiigherOrderFUnction/Program.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/initBlockExample/InitBlockDemo$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/initBlockExample/InitBlockDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/input.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Workspace/input.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/nullpointer_handling/NullPointerMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/MyObject1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/abstractClass/MyAbstractClassMain1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/DontCreateMe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/InitOrderDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/basic/Person1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/dataClss/MyDataClassMain1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/delegate/My7DelegateMain1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Bar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Base.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Derived.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/Foo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/inheritance/MyInheritanceMain1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/interfc/MyInterfaceMain1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/Const.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/Expr.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/NotANumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/Sum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/objectAndClass/sealedClass/UseOfSealedMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/opetorExample/OperatorMain$useOfLazy$lazyValue$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/opetorExample/OperatorMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/opetorExample/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/BreakExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/ContinueExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/ReturnExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/returnAndContinue/ReturnJumpMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/sealedClass/Fruit$Apple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/sealedClass/Fruit$Orange.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/sealedClass/Fruit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/sealedClass/FruitKt$main$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/sealedClass/FruitKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/tailrecFunction/TailRecFunctionExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/udemy1/ArrayANdArraylist1Kt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/useOfAllOperator/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/useOfAllOperator/UseOfOperatorExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/useOfLazy/LazyExampleKt$main$pi$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/useOfLazy/LazyExampleKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/when/When1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/when/WhenMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/whileLoop/WhileLoop1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Workspace/whileLoop/WhileMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/hiigherOrderFUnction/HighOrderFunExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/function/hiigherOrderFUnction/HighOrderFunExample.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/spm/kotlin/world/tailrecFunction/TailRecFunctionExample.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/spm/kotlin/world/function/tailrecFunction/TailRecFunctionExample.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,263 +127,23 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic/Basic.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/basic/MyBasic2.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="239" column="33" lean-forward="true" selection-start-line="239" selection-start-column="33" selection-end-line="239" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Object" />
-        <option value="Kotlin Class" />
         <option value="FxmlFile" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/basic/MyBasic2.kt" />
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectId" id="1VhfiDwoOECXPmTeeRabKkge80Y" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="basics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="collections" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="controlFlow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="delegatesInKotlin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="doWhile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="enumExample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="extensionFunction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="forLoop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hiigherOrderFUnction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="initBlockExample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nullpointer_handling" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="objectAndClass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="objectAndClass" type="462c0819:PsiDirectoryNode" />
-              <item name="abstractClass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="objectAndClass" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="objectAndClass" type="462c0819:PsiDirectoryNode" />
-              <item name="dataClss" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="objectAndClass" type="462c0819:PsiDirectoryNode" />
-              <item name="delegate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="objectAndClass" type="462c0819:PsiDirectoryNode" />
-              <item name="inheritance" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="objectAndClass" type="462c0819:PsiDirectoryNode" />
-              <item name="interfc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="objectAndClass" type="462c0819:PsiDirectoryNode" />
-              <item name="sealedClass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="opetorExample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="returnAndContinue" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tailrecFunction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="udemy1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="useOfAllOperator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="useOfLazy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hello Kotlin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hello-Kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="when" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -295,19 +164,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Kotlin.spm.kotlin.world.sealedClass.FruitKt">
+  <component name="RunManager" selected="Application.LambdaExpExampleKt">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -327,33 +184,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spm.kotlin.world.basic.MyBasic2" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="InfixFunctionExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.basic.MyBasic2" />
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.function.InfixFunctionExampleKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spm.kotlin.world.delegatesInKotlin.MainUseOfDelegateKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="LambdaExpExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.delegatesInKotlin.MainUseOfDelegateKt" />
+      <option name="MAIN_CLASS_NAME" value="spm.kotlin.world.function.LambdaExpExampleKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spm.kotlin.world.opetorExample.OperatorMain" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="spm.kotlin.world.opetorExample.OperatorMain" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -366,7 +223,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spm.kotlin.world.sealedClass.FruitKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="spm.kotlin.world.sealedClass.FruitKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -379,7 +236,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Workspace" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -411,34 +268,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.spm.kotlin.world.basic.MyBasic2" />
-      <item itemvalue="Kotlin.spm.kotlin.world.delegatesInKotlin.MainUseOfDelegateKt" />
-      <item itemvalue="Kotlin.spm.kotlin.world.opetorExample.OperatorMain" />
-      <item itemvalue="Kotlin.spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" />
-      <item itemvalue="Kotlin.spm.kotlin.world.sealedClass.FruitKt" />
+      <item itemvalue="Application.InfixFunctionExampleKt" />
+      <item itemvalue="Application.LambdaExpExampleKt" />
+      <item itemvalue="Application.spm.kotlin.world.opetorExample.OperatorMain" />
+      <item itemvalue="Application.spm.kotlin.world.sealedClass.FruitKt" />
+      <item itemvalue="Application.spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.spm.kotlin.world.sealedClass.FruitKt" />
-        <item itemvalue="Kotlin.spm.kotlin.world.basic.MyBasic2" />
-        <item itemvalue="Kotlin.spm.kotlin.world.opetorExample.OperatorMain" />
-        <item itemvalue="Kotlin.spm.kotlin.world.useOfAllOperator.UseOfOperatorExampleKt" />
-        <item itemvalue="Kotlin.spm.kotlin.world.delegatesInKotlin.MainUseOfDelegateKt" />
+        <item itemvalue="Application.LambdaExpExampleKt" />
+        <item itemvalue="Application.InfixFunctionExampleKt" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -457,84 +300,59 @@
       <option name="project" value="LOCAL" />
       <updated>1533828421785</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Kotlin Coroutines example">
+      <created>1607152662816</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607152662816</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="15" y="23" width="1265" height="704" extended-state="0" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24938676" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.5375817" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="Added Kotlin Coroutines example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Kotlin Coroutines example" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="565" y="338" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" />
-    <state x="565" y="338" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.808@0.23.1440.808" />
-    <state width="1870" height="311" key="GridCell.Tab.0.bottom" />
-    <state width="1870" height="311" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" />
-    <state width="1870" height="311" key="GridCell.Tab.0.center" />
-    <state width="1870" height="311" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" />
-    <state width="1870" height="311" key="GridCell.Tab.0.left" />
-    <state width="1870" height="311" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" />
-    <state width="1870" height="311" key="GridCell.Tab.0.right" />
-    <state width="1870" height="311" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" />
-    <state x="469" y="152" key="SettingsEditor" />
-    <state x="469" y="152" key="SettingsEditor/0.23.1920.977@0.23.1920.977" />
-    <state x="636" y="346" key="com.intellij.ide.util.TipDialog" />
-    <state x="636" y="346" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" />
+    <state x="240" y="25" key="#Plugins" timestamp="1607176403856">
+      <screen x="0" y="25" width="1280" height="689" />
+    </state>
+    <state x="240" y="25" key="#Plugins/0.25.1280.689@0.25.1280.689" timestamp="1607176403856" />
+    <state x="565" y="338" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1607153721519" />
+    <state x="565" y="338" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.808@0.23.1440.808" timestamp="1607153721522" />
+    <state width="1238" height="160" key="GridCell.Tab.0.bottom" timestamp="1608038394771">
+      <screen x="0" y="25" width="1280" height="689" />
+    </state>
+    <state width="1870" height="311" key="GridCell.Tab.0.bottom/0.23.1920.977@0.23.1920.977" timestamp="1607153721522" />
+    <state width="1238" height="160" key="GridCell.Tab.0.bottom/0.25.1280.689@0.25.1280.689" timestamp="1608038394771" />
+    <state width="1238" height="160" key="GridCell.Tab.0.center" timestamp="1608038394770">
+      <screen x="0" y="25" width="1280" height="689" />
+    </state>
+    <state width="1870" height="311" key="GridCell.Tab.0.center/0.23.1920.977@0.23.1920.977" timestamp="1607153721522" />
+    <state width="1238" height="160" key="GridCell.Tab.0.center/0.25.1280.689@0.25.1280.689" timestamp="1608038394770" />
+    <state width="1238" height="160" key="GridCell.Tab.0.left" timestamp="1608038394769">
+      <screen x="0" y="25" width="1280" height="689" />
+    </state>
+    <state width="1870" height="311" key="GridCell.Tab.0.left/0.23.1920.977@0.23.1920.977" timestamp="1607153721522" />
+    <state width="1238" height="160" key="GridCell.Tab.0.left/0.25.1280.689@0.25.1280.689" timestamp="1608038394769" />
+    <state width="1238" height="160" key="GridCell.Tab.0.right" timestamp="1608038394770">
+      <screen x="0" y="25" width="1280" height="689" />
+    </state>
+    <state width="1870" height="311" key="GridCell.Tab.0.right/0.23.1920.977@0.23.1920.977" timestamp="1607153721522" />
+    <state width="1238" height="160" key="GridCell.Tab.0.right/0.25.1280.689@0.25.1280.689" timestamp="1608038394770" />
+    <state x="469" y="152" key="SettingsEditor" timestamp="1607153721522" />
+    <state x="469" y="152" key="SettingsEditor/0.23.1920.977@0.23.1920.977" timestamp="1607153721522" />
+    <state x="636" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1607153721522" />
+    <state x="636" y="346" key="com.intellij.ide.util.TipDialog/0.23.1920.977@0.23.1920.977" timestamp="1607153721522" />
+    <state x="305" y="38" width="670" height="676" key="search.everywhere.popup" timestamp="1607244292693">
+      <screen x="0" y="25" width="1280" height="689" />
+    </state>
+    <state x="305" y="38" width="670" height="676" key="search.everywhere.popup/0.25.1280.689@0.25.1280.689" timestamp="1607244292693" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/basic/Basic.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/basic/MyBasic2.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="239" column="33" lean-forward="true" selection-start-line="239" selection-start-column="33" selection-end-line="239" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

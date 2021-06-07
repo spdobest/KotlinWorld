@@ -2,23 +2,23 @@ package spm.kotlin.world.extensionFunction
 
 fun main(args: Array<String>) {
 
-    var st1 = Student()
-    var res = st1.hasPassed(90)
+    val st1 = Student()
+    val res = st1.hasPassed(90)
     println("Result is $res")
 
     val resScholar  = st1.isScholar(95)
     println("Result is $resScholar")
 
-    var str1 = "Siba"
-    var str2 = "Prasad"
-    var str3 = "Prasad"
+    val str1 = "Siba"
+    val str2 = "Prasad"
+    val str3 = "Prasad"
 
-   var str4 =  str1.add(str2,str3)
+   val str4 =  str1.add(str2,str3)
 
     println("Addition of he BOVE STRING IS $str4")
 
     val  num3 = 123
-    var greaterNum = num3.isGreaterNumber(13)
+    val greaterNum = num3.isGreaterNumber(13)
     println("The greater number is $greaterNum")
 
 

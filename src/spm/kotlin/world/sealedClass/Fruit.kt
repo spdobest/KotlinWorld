@@ -1,7 +1,6 @@
 package spm.kotlin.world.sealedClass
 
-
-public sealed class Fruit(var name: String, var type: String) {
+sealed class Fruit(var name: String, var type: String) {
 
     fun showDetails() {
         print("Name of  the fruit is $name and type of the fruit is $type ")

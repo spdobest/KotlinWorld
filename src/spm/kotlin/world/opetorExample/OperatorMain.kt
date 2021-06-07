@@ -117,16 +117,19 @@ object OperatorMain {
     }
 
 
-    fun useOfLazy(){
+    /**
+     *
+     */
+    private fun useOfLazy(){
         println("============use of lazy==========")
         val lazyValue: String by lazy {
             println("computed!")
             "Hello"
         }
-
         println(lazyValue)
     }
-
+// computed
+// Output =  Hello
 
 
     /**
@@ -138,7 +141,7 @@ object OperatorMain {
      - > It doesnot change the object, it only return the value that applied condition
      */
 
-    fun useOfLet(){
+    private fun useOfLet(){
         println("========== use of LET ==============")
         val person = Person("Edmund", 42)
         println(person)
@@ -146,7 +149,11 @@ object OperatorMain {
         println(person)
         println(result)
     }
-
+    /** OUTPUT
+     * Person(name=Edmund, age=42)
+        Person(name=Edmund, age=42)
+        84
+     */
 
     /**
      * run
@@ -155,7 +162,7 @@ object OperatorMain {
     but rather just create some side-effects:
      */
 
-    fun useOfRun(){
+    private fun useOfRun(){
 
         println("==========use of RUN==============")
 
@@ -164,7 +171,10 @@ object OperatorMain {
         println(person)
         println(result)
     }
-
+    /** OUTPUT
+     * Person(name=Edmund, age=42)
+        84
+     */
 
     /**
      * also
@@ -172,7 +182,7 @@ object OperatorMain {
     I often use it to add debugging to the call chains or to do some additional processing:
      */
 
-    fun useOfAlso() {
+    private fun useOfAlso() {
         println("==========use of ALSO==============")
         val person = Person("Edmund", 42)
         println(person)
@@ -181,6 +191,11 @@ object OperatorMain {
         println("After apply ALso Operator , result is $result")
         println("After apply ALso Operator , the object is $person")
     }
+    /** OUTPUT
+     *  Person(name=Edmund, age=42)
+        After apply ALso Operator , result is Person(name=Edmund, age=50)
+        After apply ALso Operator , the object is Person(name=Edmund, age=50)
+     */
 
     /**
      * apply
@@ -190,7 +205,7 @@ object OperatorMain {
     An object passed in such way is called the receiver.
      */
 
-    fun useOfApply(){
+    private fun useOfApply(){
         println("==========use of APPLY==============")
         val person = Person("Edmund", 42)
         println(person)
@@ -199,13 +214,18 @@ object OperatorMain {
         println("The Result "+result)
     }
 
+    /** OUTPUT
+     *  Person(name=Edmund, age=42)
+        After apply Person(name=Edmund, age=50)
+        The Result Person(name=Edmund, age=50)
+     */
 
     /**
      * with
         According to Kotlin idioms, with should be used to call multiple methods on an object.
      */
 
-    fun useOfWith(){
+    private fun useOfWith(){
         println("==========use of WITH==============")
         val person = Person("Edmund", 42)
         val result = with(person) {
@@ -215,7 +235,12 @@ object OperatorMain {
         println(result)
     }
 
-    fun useOfFIlter(){
+    /** OUTPUT
+     *
+     * Person(name=Edmund, age=42)
+        84
+     */
+    private fun useOfFIlter(){
         println("==========use of FILTER==============")
         val originalMap = mapOf("key1" to 1, "key2" to 2, "key3" to 3)
 
@@ -225,7 +250,7 @@ object OperatorMain {
 // original map has not changed
         println(originalMap) // {key1=1, key2=2, key3=3}
     }
-    fun useofMap(){
+    private fun useofMap(){
 
     }
 

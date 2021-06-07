@@ -22,12 +22,6 @@ package spm.kotlin.world.nullpointer_handling
    //will highlight compilation error
    //as compiler is not sure as nullVariable can be null.
  *
- *
- *
- *
- *
- *
- *
  */
 
 object NullPointerMain {

@@ -1,12 +1,11 @@
 package spm.kotlin.world.function.hiigherOrderFUnction
 
-
+/**
+ *
+ */
 fun main(args: Array<String>) {
 
-
-
-
-var pr = Program()
+    val pr = Program()
     pr.addNumber(12,23,object : Execute{
         override fun executeSum(num: Int) {
             print("sum is $num")
@@ -39,10 +38,10 @@ var pr = Program()
     pr.addNumberUsingLambdaClosure(7,3,{ x,y -> closureResult = x+y })
 
     println("Closure result is $closureResult")
-
 }
 
 class Program{
+
     fun addNumber(num1:Int,num2:Int,execute:Execute){
         execute.executeSum(num1+num2)
     }

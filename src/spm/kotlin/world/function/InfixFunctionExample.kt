@@ -1,8 +1,5 @@
 package spm.kotlin.world.function
 
-import com.sun.codemodel.internal.JOp.mul
-
-
 /**
  *
  */
